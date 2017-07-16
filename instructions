@@ -1,0 +1,39 @@
+- Adicionando bibliotecas via composer
+-> composer require illuminate/html (name biblioteca)
+
+- Ctrl + Alt + O: otimiza todos os imposts da classe
+
+- dd(): die and dump;
+
+- middleware: intercepta a requisição verificando de acordo com a regra de negócio
+
+
+- Orientações Document Root
+Não há problema algum em usar o Apache para guardar outros projetos, mas está errado guardar todos os seus projetos num único document root. A fim de evitar conflitos e possíveis erros como este que você está passando, cada projeto deve ter seu próprio Document Root. No caso do Laravel, o Document Root é a pasta public.
+
+Você tem que criar um VirtualHost no Apache e definir o Document Root apontando para a pasta public ou usar o servidor embutido do PHP para executar seu projeto usando o comando php artisan serve.
+
+Devido à grande variedade de AMPs e infinitas configurações diferentes, não damos suporte a Apache.
+
+No entanto, aqui vai um manual de como criar VirtualHosts no Apache para Windows e Ubuntu:
+
+http://www.raphaelfiga.com/desenvolvimento/instalando-configurando-virtualhost-apache-windows/
+
+https://www.digitalocean.com/community/tutorials/como-configurar-apache-virtual-hosts-no-ubuntu-14-04-lts-pt
+
+- HEROKU
+-> Baixar toolbelt do heroku em https://toolbelt.heroku.com/
+-> No git bash executar heroku login
+-> Depois heroku create
+-> Criar arquivo buildpack (define ambiente do projeto, instruções para o heroku sobre o projeto - heroku-buildpack-multi - heroku config:add BUILDPACK_URL=urlGit)
+-> Criado arquivo (.buildpacks) contendo o caminho do repositorio dos buidspacks necessários (necessário apenas quando de usa o buildpack-multi)
+-> Adicionar o arquivo ao repositório
+-> Adiciona o projeto ao git no heroku (git push heroku master)
+-> git push heroku master
+-> Configurar arquivo Procfile (servidor web utilizando apache2 e depois o document_root)
+-> Command: heroku config:set (set as variaveis contidas em .env)
+-> Exec: heroku config:set APP_KEY=base64:The2Idib73JfIy5TEoGRugz+n6S/GgPU9zMcU554gp4= (APP_KEY que está em .env)
+-> heroku config:set APP_ENV=local (definindo como aplicação local)
+-> heroku config (retorna as variáveis de ambiente)
+-> Configurar variaveis de conexão com o banco de dados
+-> Exec: heroku run 'php artisan migrate' (executa os comandos comuns do php)
