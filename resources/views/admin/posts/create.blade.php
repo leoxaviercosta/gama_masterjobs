@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('content')
-    <h1>New Post</h1>
+    <h1>Novo Post</h1>
 
     @if ($errors->any())
         <div class="alert alert-danger">
@@ -28,7 +28,7 @@
     </div>
 
     <div class="form-group">
-        {!! Form::submit('Create Post', ['class'=>'btn btn-primary']) !!}
+        {!! Form::submit('Salvar', ['class'=>'btn btn-primary']) !!}
     </div>
 
     {!! Form::close() !!}

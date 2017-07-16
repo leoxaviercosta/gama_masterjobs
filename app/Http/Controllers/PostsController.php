@@ -9,6 +9,10 @@ use App\Post;
 class PostsController extends Controller
 {
     public function index() {
+        return view('index');
+    }
+
+    public function posts() {
         $posts = \App\Post::orderBy('created_at', 'desc')->paginate(5);
         return view('posts.index', compact('posts'));
     }
