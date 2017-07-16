@@ -207,25 +207,50 @@ header .count-remaining .remaining div {
     bottom: 0;
 }
 
-.box-testimonials {
+.box-testimonials-right {
     margin: 0 auto;
     border: 5px solid #fff; 
     margin-right: 100px;
 }
 
-.box-testimonials .description-testimonials {
+.box-testimonials-right .description-testimonials {
     padding: 10px 100px 10px 15px;
     font-style: italic;
 }
 
-.box-testimonials .profile-image {
+.box-testimonials-right .profile-image {
     position: absolute;
     left: auto;
     right: 80px;
     top: 10%;
 }
 
-.box-testimonials .profile-image img {
+.box-testimonials-right .profile-image img {
+    border-radius: 2000px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+}
+
+.box-testimonials-left {
+    margin: 0 auto;
+    border: 5px solid #fff; 
+    margin-left: 100px;
+}
+
+.box-testimonials-left .description-testimonials {
+    padding: 10px 15px 10px 100px;
+    font-style: italic;
+}
+
+.box-testimonials-left .profile-image {
+    position: absolute;
+    right: auto;
+    left: 80px;
+    top: 10%;
+}
+
+.box-testimonials-left .profile-image img {
     border-radius: 2000px;
     width: 100px;
     height: 100px;
@@ -314,12 +339,44 @@ footer {
     bottom: 0;
     width: 100%;
     height: 500px;
+    padding-top: 100px;
     background: url('../img/bg-footer.jpg') no-repeat bottom center scroll;    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
 
+footer .container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 10px 9px 0px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 0px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 9px 0px -7px rgba(0,0,0,0.75);
+}
+
+footer .container .title {
+    background: #00fa9b;
+    color:#2d6245;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+footer .container form {
+    padding: 0 50px 50px 50px;
+}
+
+footer .container input {
+    border: 1px solid #460819;
+    color: #e91d64;
+}
+
+footer .container .form-group {
+    text-align: left;
 }
 
 .pallet-colors {
