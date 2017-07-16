@@ -8,7 +8,9 @@ class Post extends Model
 {
     protected $fillable = array(
         "title",
-        "content"
+        "content",
+        "filepath",
+        "fileextension"
     );
 
     // método que retorna todos os comentarios de um post

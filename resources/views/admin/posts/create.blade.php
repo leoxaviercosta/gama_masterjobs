@@ -20,7 +20,11 @@
 
     <div class="form-group">
         {!! Form::label('tags', 'Tags:') !!}
-        {!! Form::textarea('tags', null, ['class' => 'form-control']) !!}
+        {!! Form::text('tags', null, ['class' => 'form-control']) !!}
+        <br />
+        <span class="btn btn-default btn-file">
+            Selecionar Arquivo  {{ Form::file('file', '', array('id' => '', 'class' => '')) }}
+        </span>
     </div>
 
     <div class="form-group">

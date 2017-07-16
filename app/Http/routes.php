@@ -20,19 +20,15 @@ Route::get('/auth/logout', function() {
     return redirect(route('home'));
 });
 
-/*Route::get('auth/login', 'Auth\AuthController@getLogin');
-Route::post('auth/login', 'Auth\AuthController@postLogin');*/
-// le todoo o controller pegando todos os métodos do controller para rota, concatenando o tipo da rota com o nome da função ex.: getLogin, postLogin
 Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController'
 ]);
 
-
-// abre blog
 Route::get('/', ['as' => 'home', 'uses' => 'PostsController@index']);
+Route::post('register', ['as' => 'register', 'uses' => 'RegisterController@register']);
+Route::post('comment', ['as' => 'comment', 'uses' => 'RegisterController@comment']);
 
-// abre administração do blog - criando hierarquia de rotas com prefixos como se fosse 'admin.posts.*'
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::group(['prefix' => 'posts'], function() {
         Route::get('', ['as' => 'admin.posts.index', 'uses' => 'PostAdminController@index']); // nomeando a rota com "as" e dizendo que usa com "uses"
