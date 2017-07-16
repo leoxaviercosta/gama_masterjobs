@@ -148,7 +148,7 @@ header .title
     /*padding-top: 10px;*/
     font-size: 50px;
     font-weight: bold;
-    color: #fff;
+    color: #54c000;
     text-shadow: 2px 2px 0px #2d6245;
 }
 
@@ -227,50 +227,30 @@ header .count-remaining .remaining div {
     bottom: 0;
 }
 
-.box-testimonials-right {
+.box-testimonials {
     margin: 0 auto;
     border: 5px solid #fff; 
-    margin-right: 100px;
+    display: table;
+    margin-bottom: 20px;
 }
 
-.box-testimonials-right .description-testimonials {
-    padding: 10px 100px 10px 15px;
+.box-testimonials .description-testimonials {
+    padding: 10px;
     font-style: italic;
+    display: table-cell;
 }
 
-.box-testimonials-right .profile-image {
-    position: absolute;
-    left: auto;
-    right: 80px;
-    top: 10%;
+.box-testimonials .profile-testimonials {
+    display: table-cell;
+    text-align: center;
+    padding: 4px;
 }
 
-.box-testimonials-right .profile-image img {
-    border-radius: 2000px;
-    width: 100px;
-    height: 100px;
-    border: 5px solid #fff;
+.box-testimonials .profile-image {
+
 }
 
-.box-testimonials-left {
-    margin: 0 auto;
-    border: 5px solid #fff; 
-    margin-left: 100px;
-}
-
-.box-testimonials-left .description-testimonials {
-    padding: 10px 15px 10px 100px;
-    font-style: italic;
-}
-
-.box-testimonials-left .profile-image {
-    position: absolute;
-    right: auto;
-    left: 80px;
-    top: 10%;
-}
-
-.box-testimonials-left .profile-image img {
+.box-testimonials .profile-image img {
     border-radius: 2000px;
     width: 100px;
     height: 100px;
@@ -429,6 +409,13 @@ footer .copyright {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+}
+
+/*hacks*/
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
 .pallet-colors {
