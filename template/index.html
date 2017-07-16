@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Master Jobs</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,900">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mako" rel="stylesheet">
     <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -18,10 +20,10 @@
             </div>
             <div class="links">
                 <ul>
-                    <li><a href="#inscrevase" class="active">INSCREVA-SE</a></li>
-                    <li><a href="#carreiras">CARREIRAS</a></li>
-                    <li><a href="#depoimentos">DEPOIMENTOS</a></li>
-                    <li><a href="#contato">CONTATO</a></li>
+                    <li><a id="inscrevase" href="#inscrevase" class="active">INSCREVA-SE</a></li>
+                    <li><a id="carreiras" href="#carreiras">CARREIRAS</a></li>
+                    <li><a id="depoimentos" href="#depoimentos">DEPOIMENTOS</a></li>
+                    <li><a id="contato" href="#contato">CONTATO</a></li>
                 </ul>
             </div>
         </div>
@@ -40,7 +42,7 @@
             <div class="remaining">
                 <div class="remaining-left"><img src="./assets/img/hilight_left.png"></div>
                 <div class="remaining-mid">INSCRIÇÕES RESTANTES</div>
-                <div class="remaining-right"><img src="./assets/img/hilight_right.png"></div>                
+                <div class="remaining-right"><img src="./assets/img/hilight_right.png"></div>
             </div>
             <br/>
         </div>
@@ -68,7 +70,7 @@
             <div class="row">
                 <div class="col-sm-6 col-lg-6 stack">
                     <div class="icon">
-                        <img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Coding-icon.png">
+                        <img src="./assets/img/stack-hacker.png">
                     </div>
                     <div class="description">
                         <div class="title">
@@ -89,7 +91,7 @@
                 </div>
                 <div class="col-sm-6 col-lg-6 stack">
                     <div class="icon">
-                        <img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Coding-icon.png">
+                        <img src="./assets/img/stack-hipster.png">
                     </div>
                     <div class="description">
                         <div class="title">
@@ -110,7 +112,7 @@
                 </div>
                 <div class="col-sm-6 col-lg-6 stack">
                     <div class="icon">
-                        <img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Coding-icon.png">
+                        <img src="./assets/img/stack-hustler.png">
                     </div>
                     <div class="description">
                         <div class="title">
@@ -131,7 +133,7 @@
                 </div>
                 <div class="col-sm-6 col-lg-6 stack">
                     <div class="icon">
-                        <img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Coding-icon.png">
+                        <img src="./assets/img/stack-hyper.png">
                     </div>
                     <div class="description">
                         <div class="title">
@@ -169,7 +171,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="box-testimonials">
+                    <div class="box-testimonials-right">
                         <div class="profile-image">
                             <img src="http://s3-us-west-2.amazonaws.com/gama-cdn/gama-site/testimonies/photos/nathalia-leandro.png?1486052256">
                         </div>
@@ -181,9 +183,7 @@
                             startup (a melhor!), Tracksale, e torço para que esse projeto continue transformando a vida de
                             muitos jovens que querem sair da zona de conforto."
                         </div>
-
                     </div>
-
                 </div>
             </div>
             <br/><br/><br/>
@@ -194,12 +194,51 @@
 
 
 
-    <footer>
+    <!--<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 title">
+                    SEJA UM DOS PRIMEIROS SELECIONADOS
+                </div>
+                <div class="col-lg-12 col-sm-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
 
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>     
+
+                        <button type="submit" class="btn">INSCREVER</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+
+    <footer>
+        <div class="container">
+            <div class="title">
+                Quer receber mais conteúdos brilhantes como esses?
+            </div>
+            <div class="sub-title">
+                Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!
+            </div>
+            <div class="form">
+                <form>
+                    <input type="email">
+                    <button class="btn">ENVIAR</button>
+                </form>
+            </div>
+        </div>
     </footer>
 
     <script type="text/javascript" src="./libs/jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="./libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
 
 </html>

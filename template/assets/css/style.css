@@ -68,6 +68,7 @@ header .menu {
 }
 
 header .menu .logo {
+    font-family: 'Montserrat', sans-serif;
     width: 200px;
     float: left;
     text-align: left;
@@ -127,15 +128,17 @@ header .menu .links .active:before {
 
 header .title
 {
+    font-family: 'Montserrat', sans-serif;
     padding-top: 20px;
     font-size: 70px;
-    font-weight: 900;
+    font-weight: bold;
     color: #fff;
     text-shadow: 2px 2px 0px #2d6245;
 }
 
 header .sub-title
 {
+    font-family: 'Mako', sans-serif;
     margin-top: -20px;
     font-size: 34px;
     font-weight: 400;
@@ -144,6 +147,7 @@ header .sub-title
 }
 
 header .count-remaining .counter {
+    font-family: 'Montserrat', sans-serif;
     color: #06fa9f;
     font-size: 70px;
     text-shadow: 2px 2px 0px #2d6245;
@@ -181,7 +185,7 @@ header .count-remaining .remaining div {
     color: #000;
     text-align: center;
     padding: 20px;
-    background-color: #d8d6d9;
+    background: url('../img/bg-stacks.jpg');
 }
 
 .student-testimonials .container {
@@ -207,25 +211,50 @@ header .count-remaining .remaining div {
     bottom: 0;
 }
 
-.box-testimonials {
+.box-testimonials-right {
     margin: 0 auto;
     border: 5px solid #fff; 
     margin-right: 100px;
 }
 
-.box-testimonials .description-testimonials {
+.box-testimonials-right .description-testimonials {
     padding: 10px 100px 10px 15px;
     font-style: italic;
 }
 
-.box-testimonials .profile-image {
+.box-testimonials-right .profile-image {
     position: absolute;
     left: auto;
     right: 80px;
     top: 10%;
 }
 
-.box-testimonials .profile-image img {
+.box-testimonials-right .profile-image img {
+    border-radius: 2000px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+}
+
+.box-testimonials-left {
+    margin: 0 auto;
+    border: 5px solid #fff; 
+    margin-left: 100px;
+}
+
+.box-testimonials-left .description-testimonials {
+    padding: 10px 15px 10px 100px;
+    font-style: italic;
+}
+
+.box-testimonials-left .profile-image {
+    position: absolute;
+    right: auto;
+    left: 80px;
+    top: 10%;
+}
+
+.box-testimonials-left .profile-image img {
     border-radius: 2000px;
     width: 100px;
     height: 100px;
@@ -313,13 +342,44 @@ header .count-remaining .remaining div {
 footer {
     bottom: 0;
     width: 100%;
-    height: 500px;
-    background: url('../img/bg-footer.jpg') no-repeat bottom center scroll;    
+    height: 254px;
+    padding-top: 70px;
+    background: url('../img/bg-footer-2.jpg') no-repeat bottom center scroll;    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
 
+footer .container {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+footer .container .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+footer .container form {
+    margin-top: 20px;
+    padding: 0 50px 50px 50px;
+}
+
+footer .container input {
+    color: #e91d64;
+    height: 50px;
+    width: 300px;
+}
+
+footer .container .btn {
+    border-radius: 0;
+    box-shadow: 0px 0px;
 }
 
 .pallet-colors {
