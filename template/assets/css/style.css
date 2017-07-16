@@ -6,6 +6,10 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -14,8 +18,21 @@ body {
     background-color:  #e91d64;
     padding: 10px 20px 10px 20px;
     border: 0px;
-    border-bottom: 2px solid #460819;
+    /*border-bottom: 4px solid #460819;*/
+    box-shadow: 0 4px #460819;
     border-radius: 4px;
+    transition: all .2s ease-out;
+}
+
+.btn:hover {
+    color: #460819;
+    transition: all .2s ease-out;
+}
+
+.btn:active {
+    /*border-bottom: 1px solid #460819;*/
+    box-shadow: 0 1px #460819;
+    transform: translateY(4px);
 }
 
 header {
@@ -74,6 +91,23 @@ header .sub-title
 header .count-remaining .counter {
     color: #06fa9f;
     font-size: 70px;
+}
+
+header .count-remaining .remaining {
+    color: #fff;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .count-remaining .remaining .remaining-mid {
+    background-color: #06fa9f;
+    padding: 0px 10px 0px 10px;
+    font-weight: 900;
+}
+
+header .count-remaining .remaining div {
+    display: table-cell;
 }
 
 .scrollhover {
