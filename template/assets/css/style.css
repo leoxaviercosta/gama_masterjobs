@@ -70,7 +70,7 @@ header .menu {
 
 header .menu .container{
     color: #fff;
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
 }
@@ -132,6 +132,10 @@ header .menu .links .active:before {
     width: 100%;
     background-color: #06fa9f;
     transition: width 0.5s ease-in-out;
+}
+
+header .menu .btn-want-upgrade {
+    font-size: 12px
 }
 
 header .logo-main img {

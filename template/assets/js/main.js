@@ -1,4 +1,4 @@
-$("#inscrevase").click(function () {
+$("#upgradecarreira").click(function () {
     $('html, body').animate({
         scrollTop: $("footer form").offset().top
     }, 1000);
@@ -12,7 +12,7 @@ $("#carreiras").click(function () {
 
 $("#depoimentos").click(function () {
     $('html, body').animate({
-        scrollTop: $("footer form").offset().top
+        scrollTop: $(".student-testimonials").offset().top
     }, 1000);
 });
 
@@ -35,6 +35,12 @@ $("#want-work-startup").click(function () {
 });
 
 $("#apply-subscribe").click(function () {
+    $('html, body').animate({
+        scrollTop: $("footer form").offset().top
+    }, 1000);
+});
+
+$(".btn-want-upgrade").click(function () {
     $('html, body').animate({
         scrollTop: $("footer form").offset().top
     }, 1000);
