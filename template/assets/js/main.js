@@ -45,3 +45,12 @@ $(".btn-want-upgrade").click(function () {
         scrollTop: $("footer form").offset().top
     }, 1000);
 });
+
+$("#subscribe").submit(function (e) {
+    e.preventDefault();
+    var urlApi = "http://urldaapi";
+    var data = {'email': $("#subscribe #email").val()};
+    $.post(urlApi,  data, function (data) {
+        //$(".result").html(data);
+    });
+});
