@@ -1,33 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <title>Master Jobs</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,900">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Mako" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mako">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/icon-green.ico">
+</head>
 
 <body>
     <header>
         <div class="menu">
-            <div class="logo">
-                MASTERJOBS.TECH
-            </div>
-            <div class="links">
-                <ul>
-                    <li><a id="inscrevase" href="#inscrevase" class="active">INSCREVA-SE</a></li>
-                    <li><a id="carreiras" href="#carreiras">CARREIRAS</a></li>
-                    <li><a id="depoimentos" href="#depoimentos">DEPOIMENTOS</a></li>
-                    <li><a id="contato" href="#contato">CONTATO</a></li>
-                </ul>
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/img/logo-tech-white.png">
+                </div>
+                <div class="links">
+                    <ul>
+                        <!--<li><a id="inscrevase" href="#upgradecarreira" class="active">UPGRADE DE CARREIRA</a></li>-->
+                        <li><a id="depoimentos" href="#depoimentos">DEPOIMENTOS</a></li>
+                        <li><a>BLOG</a></li>
+                        <li><a id="contato" href="#contato">CONTATO</a></li>
+                        <li>
+                            <button class="btn btn-want-upgrade">QUERO UM UPGRADE NA CARREIRA</button>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <br/>
+        <div class="logo-main">
+            <img src="assets/img/logo-white.png">
+        </div>
         <div class="title">
             MASTERJOBS
         </div>
@@ -37,16 +52,16 @@
 
         <div class="count-remaining">
             <div class="counter">
-                1.547
+                <span id="time-remaining"></span>
             </div>
             <div class="remaining">
                 <div class="remaining-left"><img src="assets/img/hilight_left.png"></div>
-                <div class="remaining-mid">INSCRIÇÕES RESTANTES</div>
+                <div class="remaining-mid">AINDA DÁ TEMPO</div>
                 <div class="remaining-right"><img src="assets/img/hilight_right.png"></div>
             </div>
             <br/>
         </div>
-        <button class="btn">INSCRIÇÕES ABERTAS</button>
+        <button class="btn" id="subscribe-open">INSCRIÇÕES ABERTAS</button>
         <br/><br/>
         <div class="scrollhover">
             <img src="assets/img/scrollhover.gif">
@@ -68,9 +83,9 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-6 col-lg-6 stack">
+                <div class="col-xs-6 col-sm-6 col-lg-6 stack">
                     <div class="icon">
-                        <img src="assets/img/stack-hacker.png">
+                        <img src="assets/img/stack-hacker2.png">
                     </div>
                     <div class="description">
                         <div class="title">
@@ -89,9 +104,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 stack">
+                <div class="col-xs-6 col-sm-6 col-lg-6 stack">
                     <div class="icon">
-                        <img src="assets/img/stack-hipster.png">
+                        <img src="assets/img/stack-hipster2.png">
                     </div>
                     <div class="description">
                         <div class="title">
@@ -110,9 +125,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 stack">
+                <div class="col-xs-6 col-sm-6 col-lg-6 stack">
                     <div class="icon">
-                        <img src="assets/img/stack-hustler.png">
+                        <img src="assets/img/stack-hustler2.png">
                     </div>
                     <div class="description">
                         <div class="title">
@@ -131,9 +146,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6 stack">
+                <div class="col-xs-6 col-sm-6 col-lg-6 stack">
                     <div class="icon">
-                        <img src="assets/img/stack-hyper.png">
+                        <img src="assets/img/stack-hyper2.png">
                     </div>
                     <div class="description">
                         <div class="title">
@@ -155,7 +170,7 @@
             </div>
 
             <br/><br/><br/>
-            <button class="btn">FAZER INSCRIÇÃO</button>
+            <button class="btn" id="apply-subscribe">FAZER INSCRIÇÃO</button>
             <br/><br/><br/>
         </div>
     </section>
@@ -171,9 +186,11 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="box-testimonials-right">
-                        <div class="profile-image">
-                            <img src="http://s3-us-west-2.amazonaws.com/gama-cdn/gama-site/testimonies/photos/nathalia-leandro.png?1486052256">
+                    <div class="box-testimonials">
+                        <div class="profile-testimonials vcenter">
+                            <div class="profile-image">
+                                <img src="http://s3-us-west-2.amazonaws.com/gama-cdn/gama-site/testimonies/photos/nathalia-leandro.png?1486052256">
+                            </div>
                         </div>
                         <div class="description-testimonials">
                             "Foi a experiência de preparação profissional mais incrível que eu já tive. Nem a graduação e a pós-graduação me proporcionaram
@@ -185,58 +202,91 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-12">
+                    <div class="box-testimonials">
+                        <div class="description-testimonials">
+                            "Treinamento intensivo e absurdamente transformador! É preciso saber trabalhar em grupo e sob pressão. Colocamos em prática
+                            os temas que eram abordados durante os assignments! Desenvolvemos hard skills e soft skills!
+                            Aprendemos muito com os CEOs de startups que estão crescendo. Conhecemos muitas pessoas boas,
+                            engajadas e super empenhadas em dar o melhor de si! É uma oportunidade de mudança e crescimento
+                            de carreira! Muito obrigada Gama!"
+                        </div>
+                        <div class="profile-testimonials vcenter">
+                            <div class="profile-image">
+                                <img src="http://s3-us-west-2.amazonaws.com/gama-cdn/gama-site/testimonies/photos/aline-mie.png?1486052255">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <br/><br/><br/>
-            <button class="btn">QUERO TRABALHAR EM UMA STARTUP</button>
-            <br/><br/><br/>
+        </div>
+        <br/><br/><br/>
+        <button class="btn" id="want-work-startup">QUERO TRABALHAR EM UMA STARTUP</button>
+        <br/><br/><br/>
         </div>
     </section>
 
-
-
-    <!--<footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12 title">
-                    SEJA UM DOS PRIMEIROS SELECIONADOS
+    <footer>
+        <div class="newsletter">
+            <div class="container">
+                <div class="title">
+                    Quer receber mais conteúdos brilhantes como esses?
                 </div>
-                <div class="col-lg-12 col-sm-12">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Nome:</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email">
-                        </div>     
-
-                        <button type="submit" class="btn">INSCREVER</button>
+                <div class="sub-title">
+                    Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!
+                </div>
+                <div class="form">
+                    <form id="subscribe">
+                        <input type="email" name="email" id="email" placeholder="Informe seu email">
+                        <button class="btn">ENVIAR</button>
                     </form>
                 </div>
             </div>
         </div>
-    </footer>-->
-
-    <footer>
-        <div class="container">
-            <div class="title">
-                Quer receber mais conteúdos brilhantes como esses?
+        <div class="sub-footer">
+            <div class="row">
+                <div class="col-xs-8">
+                    <div class="col-xs-6">
+                        <img src="assets/img/logo.png" class="logo">
+                    </div>
+                    <div class="col-xs-6" class="logo">
+                        <img src="assets/img/logo-gama.png">
+                    </div>
+                    <div class="col-xs-12">
+                        O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais
+                        de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro? <b>Nós queremos ajudar você!</b>
+                    </div>
+                </div>
+                <div class="col-xs-2 box-category">
+                    <div class="title-category">
+                        Categorias do Blog
+                    </div>
+                    <ul>
+                        <li><a>Programadores</a></li>
+                        <li><a>Designers</a></li>
+                        <li><a>Marketing</a></li>
+                        <li><a>Vendas</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-2 box-materials">
+                    <div class="title-materials">
+                        Materiais do Gama
+                    </div>
+                    <ul>
+                        <li><a>Ebooks</a></li>
+                        <li><a>Artigos Especializados</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="sub-title">
-                Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!
-            </div>
-            <div class="form">
-                <form>
-                    <input type="email">
-                    <button class="btn">ENVIAR</button>
-                </form>
-            </div>
+        </div>
+        <div class="copyright">
+            © Gama Academy 2017 - Todos os direitos reservados
         </div>
     </footer>
 
     <script type="text/javascript" src="libs/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="libs/jquery/jquery.countdown.min.js"></script>
     <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 </body>

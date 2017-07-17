@@ -8,9 +8,9 @@
             <div class="col-xs-5">{!! Form::text('name', null, ['class'=>'form-control', 'placeholder'=>'Nome']) !!}</div>
             <div class="col-xs-5">{!! Form::text('email', null, ['class'=>'form-control', 'placeholder'=>'E-mail']) !!}</div>
             <div class="col-xs-2">{!! Form::submit('Cadastrar', ['class'=>'btn btn-primary']) !!}</div>
-            <span class="btn btn-default btn-file">
-                        Selecionar Arquivo  {{ Form::file('file') }}
-                    </span>
+            <span class="btn btn-default">
+                {{ Form::file('file') }}
+            </span>
         </div>
     </div>
     {!! Form::close() !!}
