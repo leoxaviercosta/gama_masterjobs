@@ -31,6 +31,11 @@
                 <div class="logo">
                     <img src="./assets/img/logo-tech-white.png">
                 </div>
+                <div class="hidden-md hidden-lg">
+                    <button type="button" onclick="openNav()" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                </div>
                 <div class="links hidden-xs hidden-sm">
                     <ul>
                         <li>
@@ -197,6 +202,7 @@
                 </div>
                 <div class="form">
                     <form id="subscribe">
+                        <input type="text" name="name" id="name" placeholder="Informe seu nome">
                         <input type="email" name="email" id="email" placeholder="Informe seu email">
                         <button class="btn">ENVIAR</button>
                     </form>
@@ -249,10 +255,12 @@
     <!-- SIDENAV -->
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <a href="#">Programação</a>
+        <a href="#">Design</a>
+        <a href="#">Vendas</a>
+        <a href="#">Marketing</a>
+        <a href="#">Ebooks</a>
+        <a href="#">Artigos Especializados</a>
     </div>
 
     <!-- MODAL INSCRIÇÃO -->
