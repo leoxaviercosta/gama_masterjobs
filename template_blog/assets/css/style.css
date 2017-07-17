@@ -390,6 +390,9 @@ footer .copyright {
     .sub-footer .logo-master-gama {
         padding-bottom: 20px;
     }
+    header {
+        height: 420px;
+    }
 }
 .mj-blog {
     
