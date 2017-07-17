@@ -79,12 +79,13 @@ header .menu .container{
 }
 
 header .menu .logo img {
-    font-family: 'Montserrat', sans-serif;
-    width: 200px;
-    float: left;
+     width: 200px;
+     float: left;
+     margin-top: 7px;
+    /*font-family: 'Montserrat', sans-serif; 
     text-align: left;
     font-weight: 900;
-    text-shadow: 2px 2px 0px #2d6245;
+    text-shadow: 2px 2px 0px #2d6245;*/
 }
 
 header .menu ul {
