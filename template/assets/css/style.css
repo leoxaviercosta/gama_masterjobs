@@ -66,6 +66,9 @@ header .menu {
     width: 100%;
     margin: 0 auto;
     padding: 17px;
+    position: fixed;
+    z-index: 9999;
+    transition: width 0.5s ease-in-out;
 }
 
 header .menu .container{
@@ -138,6 +141,10 @@ header .menu .btn-want-upgrade {
     font-size: 12px
 }
 
+header .logo-main {
+    margin-top: 80px;
+}
+
 header .logo-main img {
     height: 100px;
 }
@@ -148,7 +155,7 @@ header .title
     /*padding-top: 10px;*/
     font-size: 50px;
     font-weight: bold;
-    color: #54c000;
+    color: #fff;
     text-shadow: 2px 2px 0px #2d6245;
 }
 

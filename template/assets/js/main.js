@@ -54,3 +54,14 @@ $("#subscribe").submit(function (e) {
         //$(".result").html(data);
     });
 });
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+
+    if (scroll > 500) {
+        $("header .menu").css('background-color', 'rgba(0, 0, 0, 0.8');
+    } else {
+        $("header .menu").css('background-color', 'rgba(0, 0, 0, 0.3');
+    }
+    // Do something
+});
