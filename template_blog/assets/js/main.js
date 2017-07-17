@@ -58,7 +58,7 @@ $("#subscribe").submit(function (e) {
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
 
-    if (scroll > 500) {
+    if (scroll > 200) {
         $("header .menu").css('background-color', 'rgba(0, 0, 0, 0.8');
     } else {
         $("header .menu").css('background-color', 'rgba(0, 0, 0, 0.3');
@@ -66,9 +66,9 @@ $(window).scroll(function (event) {
     // Do something
 });
 
-$('#time-remaining').countdown('2017/07/22', function (event) {
+/*$('#time-remaining').countdown('2017/07/22', function (event) {
     $(this).html(event.strftime('%D DIAS %H:%M:%S'));
-});
+});*/
 
 $(window).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();

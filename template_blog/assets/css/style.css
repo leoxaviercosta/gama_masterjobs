@@ -22,6 +22,16 @@ a:active {
     text-decoration: none;
 }
 
+.btn-flat {
+    border: 1px solid #e91d64;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    background: #fff;
+    color: #e91d64;
+}
+
 .btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -248,15 +258,22 @@ header .count-remaining .remaining div {
     font-weight: 900;
 }
 
+
 .box-next-editions {
     background: #06fa9f;
     color: #000;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.box-next-editions .btn {
+    font-size: 17px;
 }
 
 .box-next-editions .title {
     font-weight: 100;
+    text-align: left;
 }
 
 .box-next-editions ul {
@@ -266,6 +283,7 @@ header .count-remaining .remaining div {
 
 .box-next-editions ul li {
     font-weight: 700;
+    text-align: left;
 }
 
 footer .newsletter{
@@ -347,6 +365,17 @@ footer .copyright {
     vertical-align: middle;
     float: none;
 }
+/*modal bootstrap*/
+.modal {
+    top: 50px;
+}
+
+.modal-header {
+    background: #e91d64;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 .pallet-colors {
     color: #7ac043; /*GAMA*/
@@ -361,4 +390,65 @@ footer .copyright {
     .sub-footer .logo-master-gama {
         padding-bottom: 20px;
     }
+}
+.mj-blog {
+    
+}
+.mj-blog .mj-blog-title {
+    font-family: 'Montserrat', sans-serif;
+    border-left: 2px dashed #06fa9f;
+}
+
+.mj-blog .mj-blog-title-description {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 10px 5px 10px;
+}
+
+.mj-blog .mj-blog-title-sub-description {
+    padding-left: 10px;
+}
+
+.mj-blog .mj-blog-sub-content {
+    padding: 20px 20px 15px 10px;
+    border-bottom: 2px dashed #06fa9f;
+}
+
+.mj-blog-pagination {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mj-blog-pagination .pagination > .active > a {
+    background: #1af2a0;
+    border-color: #1af2a0;
+    color: #fff;
+}
+
+.mj-blog-pagination .pagination > li > a {
+    color: #1af2a0;
+}
+#form-apply-inscription {
+    text-align: center;
+}
+
+#form-apply-inscription span {
+    color: #e91d64;
+    font-weight: bold;
+}
+#form-apply-inscription input {
+    border: 0px;
+    padding: 10px;
+    font-size: 15px;
+    width: 50%;
+    text-align: center;
+}
+
+#form-apply-inscription .close{
+    opacity: 1.0;
+    
+}
+#form-apply-inscription .close span {
+color: #fff;
 }
