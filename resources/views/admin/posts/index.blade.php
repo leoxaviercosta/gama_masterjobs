@@ -3,13 +3,14 @@
 @section('content')
     <h1>Posts</h1>
 
-    <a href="{{ route('admin.posts.create') }}" class="btn btn-primary">Novo Post</a>
+    <a href="{{ route('admin.posts.create') }}" class="btn btn-success">Novo Post</a>
     <br /><br />
 
     <table class="table">
         <tr>
             <th>Código</th>
             <th>Título</th>
+            <th>Incluído em</th>
             <th>Ações</th>
         </tr>
 
@@ -17,8 +18,9 @@
             <tr>
                 <td>{{ $post->id }}</td>
                 <td>{{ $post->title }}</td>
+                <td>{{ $post->created_at }}</td>
                 <td>
-                    <a href="{{ route('admin.posts.edit', ['id' => $post->id]) }}" class="btn btn-primary">Editar</a>
+                    <a href="{{ route('admin.posts.edit', ['id' => $post->id]) }}" class="btn btn-success">Editar</a>
                     <a href="{{ route('admin.posts.destroy', ['id' => $post->id]) }}" class="btn btn-danger">Excluir</a>
                 </td>
             </tr>

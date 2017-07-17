@@ -21,7 +21,7 @@ class PostAdminController extends Controller
     }
 
     public function index() {
-        $posts = $this->post->paginate(5);
+        $posts = $this->post->orderBy('created_at', 'desc')->paginate(10);
         return view('admin.posts.index', compact('posts'));
     }
 
