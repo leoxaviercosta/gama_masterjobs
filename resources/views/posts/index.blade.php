@@ -19,7 +19,7 @@
 
     @foreach($posts as $post)
         <h2>{{ $post->title }}</h2>
-        <p>{{ $post->content }}</p>
+        <p>{!! $post->content !!}</p>
         <b>Tags:</b>
         @foreach($post->tags as $tag)
             {{ $tag->name }} |

@@ -19,12 +19,12 @@
     @include('admin.posts._form')
 
     <div class="form-group">
-        {!! Form::label('tags', 'Tags (separado por vírgula):') !!}
-        {!! Form::text('tags', null, ['class' => 'form-control']) !!}
+        {!! Form::label('tags', 'Tags:') !!} <br />
+        {!! Form::text('tags', null, ['class' => 'form-control', 'data-role' => 'tagsinput']) !!}
     </div>
 
     <div class="form-group">
-        {!! Form::submit('Salvar', ['class'=>'btn btn-primary']) !!}
+        {!! Form::submit('Salvar', ['class'=>'btn btn-success']) !!}
     </div>
 
     {!! Form::close() !!}

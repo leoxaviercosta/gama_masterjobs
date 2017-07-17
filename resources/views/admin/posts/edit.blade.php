@@ -20,11 +20,11 @@
 
     <div class="form-group">
         {!! Form::label('tags', 'Tags:') !!}
-        {!! Form::textarea('tags', $post->tagList, ['class' => 'form-control']) !!}
+        {!! Form::text('tags', $post->tagList, ['class' => 'form-control', 'data-role' => 'tagsinput']) !!}
     </div>
 
     <div class="form-group">
-        {!! Form::submit('Salvar', ['class'=>'btn btn-primary']) !!}
+        {!! Form::submit('Salvar', ['class'=>'btn btn-success']) !!}
     </div>
 
     {!! Form::close() !!}
