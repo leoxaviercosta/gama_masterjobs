@@ -40,11 +40,11 @@ $("#apply-subscribe").click(function () {
     }, 1000);
 });
 
-/*$(".btn-want-upgrade").click(function () {
+$(".btn-want-upgrade").click(function () {
  $('html, body').animate({
  scrollTop: $("footer form").offset().top
  }, 1000);
- });*/
+ });
 
 /*$("#subscribe").submit(function (e) {
  e.preventDefault();
@@ -66,9 +66,9 @@ $(window).scroll(function (event) {
     // Do something
 });
 
-/*$('#time-remaining').countdown('2017/07/22', function (event) {
+$('#time-remaining').countdown('2017/07/22', function (event) {
  $(this).html(event.strftime('%D DIAS %H:%M:%S'));
- });*/
+ });
 
 $(window).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();

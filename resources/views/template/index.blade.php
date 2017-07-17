@@ -44,7 +44,7 @@
                     <ul>
                         <!--<li><a id="inscrevase" href="#upgradecarreira" class="active">UPGRADE DE CARREIRA</a></li>-->
                         <li><a id="depoimentos" href="#depoimentos">DEPOIMENTOS</a></li>
-                        <li><a>BLOG</a></li>
+                        <li><a id="depoimentos" href="http://masterjobs.tech/blog">BLOG</a></li>
                         <li><a id="contato" href="#contato">CONTATO</a></li>
                         <li>
                             <button class="btn btn-want-upgrade">QUERO UM UPGRADE NA CARREIRA</button>

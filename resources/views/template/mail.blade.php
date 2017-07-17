@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<body>
+<header>
     <title>Vagas em startups de sucesso. Conheça o Gama Experience!</title>
-
     <meta charset="UTF-8">
+</header>
+
+<body>
     <style>
         body {
-            background: url('http://masterjobs.tech/assets/img/bg.jpg');
+                background: url('http://masterjobs.tech/assets/img/bg.jpg');
         }
 
         a {
@@ -45,9 +47,6 @@
       ga('send', 'pageview');
 
     </script>
-</body>
-
-<body>
     <div class="container">
         <p>Olá, pessoal!</p>
 
