@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Master Jobs</title>
+    <title>MasterJobs - Gama Experience</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro?" />
+
+    <meta name="robots" content="index,follow" />
 
     <!-- Favicon -->
     <link rel="icon" href="assets/img/icon-green.ico">
@@ -26,7 +30,7 @@
                 <div class="logo">
                     <img src="assets/img/logo-tech-white.png">
                 </div>
-                <div class="links">
+                <div class="links hidden-xs hidden-sm">
                     <ul>
                         <!--<li><a id="inscrevase" href="#upgradecarreira" class="active">UPGRADE DE CARREIRA</a></li>-->
                         <li><a id="depoimentos" href="#depoimentos">DEPOIMENTOS</a></li>
@@ -83,7 +87,7 @@
             </div>
 
             <div class="row">
-                <div class="col-xs-6 col-sm-6 col-lg-6 stack">
+                <div class="col-xs-12 col-sm-6 col-lg-6 stack">
                     <div class="icon">
                         <img src="assets/img/stack-hacker2.png">
                     </div>
@@ -104,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-lg-6 stack">
+                <div class="col-xs-12 col-sm-6 col-lg-6 stack">
                     <div class="icon">
                         <img src="assets/img/stack-hipster2.png">
                     </div>
@@ -125,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-lg-6 stack">
+                <div class="col-xs-12 col-sm-6 col-lg-6 stack">
                     <div class="icon">
                         <img src="assets/img/stack-hustler2.png">
                     </div>
@@ -146,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-lg-6 stack">
+                <div class="col-xs-12 col-sm-6 col-lg-6 stack">
                     <div class="icon">
                         <img src="assets/img/stack-hyper2.png">
                     </div>
@@ -179,17 +183,30 @@
         <div class="container">
             <h1>DEPOIMENTOS DOS ALUNO</h1>
             <div class="sub-title">
-                Transformamos Talentos e Conectados esses profisionais a
-                <br/>oprotunidades Reais de Trabalho nas Maiores Startups e
+                Transformamos Talentos e Conectamos esses profisionais a
+                <br/>oportunidades Reais de Trabalho nas Maiores Startups e
                 <br/> Empresas de Tecnologias do País.
             </div>
 
             <div class="row">
                 <div class="col-lg-12">
                     <div class="box-testimonials">
+                        <div class="description-testimonials">
+                            "Participei do Gama Experience em São Paulo e foi uma experiência incrível por diversos motivos! Pude aprender muito sobre teoria e conceitos de mercado, mas isso qualquer curso ou livro pode ensinar... Fazer parte do programa me ensinou e me deu as ferramentas necessárias para fazer a diferença, seja em empresas, seja na vida das pessoas! Hoje me sinto muito capaz e com a motivação necessária para isso! Valeu Gama!!"
+                        </div>
                         <div class="profile-testimonials vcenter">
                             <div class="profile-image">
-                                <img src="http://s3-us-west-2.amazonaws.com/gama-cdn/gama-site/testimonies/photos/nathalia-leandro.png?1486052256">
+                                <img data-toggle="tooltip" data-placement="left" title="Caio Ayrosa" src="http://s3-us-west-2.amazonaws.com/gama-cdn/gama-site/testimonies/photos/caio-ayrosa.png?1486052256">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="box-testimonials">
+                        <div class="profile-testimonials vcenter">
+                            <div class="profile-image">
+                                <img data-toggle="tooltip" data-placement="right" title="Nathália Leandro" src="http://s3-us-west-2.amazonaws.com/gama-cdn/gama-site/testimonies/photos/nathalia-leandro.png?1486052256">
                             </div>
                         </div>
                         <div class="description-testimonials">
@@ -214,7 +231,7 @@
                         </div>
                         <div class="profile-testimonials vcenter">
                             <div class="profile-image">
-                                <img src="http://s3-us-west-2.amazonaws.com/gama-cdn/gama-site/testimonies/photos/aline-mie.png?1486052255">
+                                <img data-toggle="tooltip" data-placement="left" title="Aline Mie" src="http://s3-us-west-2.amazonaws.com/gama-cdn/gama-site/testimonies/photos/aline-mie.png?1486052255">
                             </div>
                         </div>
                     </div>
@@ -237,46 +254,52 @@
                     Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!
                 </div>
                 <div class="form">
-                    <form id="subscribe">
-                        <input type="email" name="email" id="email" placeholder="Informe seu email">
-                        <button class="btn">ENVIAR</button>
-                    </form>
+                    {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
+                        <!--<input type="text" name="name" id="name" placeholder="Informe seu nome">-->
+                        {!! Form::text('name', null, ['placeholder'=>'Informe seu nome']) !!}
+                        <!--<input type="email" name="email" id="email" placeholder="Informe seu email">-->
+                        {!! Form::email('email', null, ['placeholder'=>'Informe seu email']) !!}
+                        <!--<button type="submit" class="btn">ENVIAR</button>-->
+                        {!! Form::button('ENVIAR', ['class'=>'btn', 'type' => 'submit']) !!}
+                    {!! Form::close() !!}
                 </div>
             </div>
         </div>
         <div class="sub-footer">
             <div class="row">
-                <div class="col-xs-8">
+                <div class="col-xs-12 col-sm-8 col-lg-8 logo-master-gama">
                     <div class="col-xs-6">
                         <img src="assets/img/logo.png" class="logo">
                     </div>
-                    <div class="col-xs-6" class="logo">
-                        <img src="assets/img/logo-gama.png">
+                    <div class="col-xs-6" >
+                        <img src="assets/img/logo-gama.png" class="logo">
                     </div>
                     <div class="col-xs-12">
                         O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais
                         de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro? <b>Nós queremos ajudar você!</b>
                     </div>
                 </div>
-                <div class="col-xs-2 box-category">
-                    <div class="title-category">
-                        Categorias do Blog
+                <div class="col-xs-12 col-sm-4 col-lg-4 box-category">
+                    <div class="col-xs-6 box-category">
+                        <div class="title-category">
+                            Categorias do Blog
+                        </div>
+                        <ul>
+                            <li><a>Programadores</a></li>
+                            <li><a>Designers</a></li>
+                            <li><a>Marketing</a></li>
+                            <li><a>Vendas</a></li>
+                        </ul>
                     </div>
-                    <ul>
-                        <li><a>Programadores</a></li>
-                        <li><a>Designers</a></li>
-                        <li><a>Marketing</a></li>
-                        <li><a>Vendas</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-2 box-materials">
-                    <div class="title-materials">
-                        Materiais do Gama
+                    <div class="col-xs-6 box-materials">
+                        <div class="title-materials">
+                            Materiais do Gama
+                        </div>
+                        <ul>
+                            <li><a>Ebooks</a></li>
+                            <li><a>Artigos Especializados</a></li>
+                        </ul>
                     </div>
-                    <ul>
-                        <li><a>Ebooks</a></li>
-                        <li><a>Artigos Especializados</a></li>
-                    </ul>
                 </div>
             </div>
         </div>

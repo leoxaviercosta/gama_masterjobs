@@ -19,6 +19,7 @@
     @include('admin.posts._form')
 
     <div class="form-group">
+        {!! Form::hidden('operator', Auth::user()->name) !!}
         {!! Form::label('tags', 'Tags:') !!} <br />
         {!! Form::text('tags', null, ['class' => 'form-control', 'data-role' => 'tagsinput']) !!}
     </div>

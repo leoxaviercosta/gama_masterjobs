@@ -8,6 +8,7 @@ class Leads extends Model
 {
     protected $fillable = array(
         "name",
-        "email"
+        "email",
+        "ip_address"
     );
 }

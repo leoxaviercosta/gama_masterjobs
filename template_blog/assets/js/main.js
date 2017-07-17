@@ -46,14 +46,14 @@ $("#apply-subscribe").click(function () {
     }, 1000);
 });*/
 
-$("#subscribe").submit(function (e) {
+/*$("#subscribe").submit(function (e) {
     e.preventDefault();
     var urlApi = "http://urldaapi";
     var data = { 'email': $("#subscribe #email").val() };
     $.post(urlApi, data, function (data) {
         //$(".result").html(data);
     });
-});
+});*/
 
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Master Jobs</title>
+    <title>MasterJobs - Gama Experience</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="assets/css/style-blog.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro?"/>
+
+    <meta name="description" content="O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro?"
+    />
+
     <meta name="robots" content="index,follow" />
 
     <!-- Favicon -->
@@ -28,13 +31,27 @@
                 <div class="logo">
                     <img src="assets/img/logo-tech-white.png">
                 </div>
+                <div class="hidden-md hidden-lg">
+                    <button type="button" onclick="openNav()" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                </div>
                 <div class="links hidden-xs hidden-sm">
                     <ul>
-                        <li><a id="depoimentos" href="#depoimentos">CATEGORIAS</a></li>
+                        <li>
+                            <a href="#">CATEGORIAS</a>
+                            <ul>
+                                <li><a href="#">Programação</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Vendas</a></li>
+                                <li><a href="#">Marketing</a></li>
+                            </ul>
+                        </li>
+                        <!--<li><a id="depoimentos" href="#depoimentos">CATEGORIAS</a></li>-->
                         <li><a>MATERIAIS GRATUITOS</a></li>
                         <li><a id="contato" href="#contato">CONTATO</a></li>
                         <li>
-                            <button class="btn btn-want-upgrade">QUERO UM UPGRADE NA CARREIRA</button>
+                            <button class="btn btn-want-upgrade" onclick="$('#myModal').modal('show')">QUERO UM UPGRADE NA CARREIRA</button>
                         </li>
                     </ul>
                 </div>
@@ -42,7 +59,7 @@
         </div>
         <br/>
         <div class="row" style="margin: 80px auto 0 auto;max-width: 900px;width: 100%;">
-            <div class="col-xs-8">
+            <div class="col-xs-12 col-sm-8 col-lg-8">
                 <div class="title">
                     GAMA EXPERIENCE
                 </div>
@@ -53,15 +70,15 @@
                     SÃO PAULO | RIO DE JANEIRO | BELO HORIZONTE | FLORIANÓPOLIS
                 </div>
             </div>
-            <div class="col-xs-4 vcenter">
-                <button class="btn" id="subscribe-open" style="margin-top: 30px;">INSCRIÇÃO GRATUITA</button>
+            <div class="col-xs-12 col-sm-4 col-lg-4 vcenter">
+                <button class="btn" onclick="$('#myModal').modal('show')" style="margin-top: 30px;">INSCRIÇÃO GRATUITA</button>
             </div>
         </div>
         <br/><br/>
     </header>
     <br/>
     <div class="row" style="margin: 0 auto; max-width: 1000px; width: 100%;padding: 20px 0 30px 0;">
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-sm-8 col-lg-8">
             @foreach($posts as $post)
                 <div class="col-xs-12 mj-blog">
                     <div class="mj-blog-title">
@@ -89,7 +106,7 @@
             </div>
         </div>
 
-        <div class="col-xs-4">
+        <div class="col-sm-4 col-lg-4 hidden-xs">
             <div class="box-work-dream">
                 <div class="title">
                     QUER O EMPREGO DOS SONHOS EM UMA DAS MAIORES STARTUPS DO PAÍS?
@@ -121,10 +138,14 @@
                     Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!
                 </div>
                 <div class="form">
-                    <form id="subscribe">
-                        <input type="email" name="email" id="email" placeholder="Informe seu email">
-                        <button class="btn">ENVIAR</button>
-                    </form>
+                    {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
+                        <!--<input type="text" name="name" id="name" placeholder="Informe seu nome">-->
+                        {!! Form::text('name', null, ['placeholder'=>'Informe seu nome']) !!}
+                        <!--<input type="email" name="email" id="email" placeholder="Informe seu email">-->
+                        {!! Form::email('email', null, ['placeholder'=>'Informe seu email']) !!}
+                        <!--<button type="submit" class="btn">ENVIAR</button>-->
+                        {!! Form::button('ENVIAR', ['class'=>'btn', 'type' => 'submit']) !!}
+                    {!! Form::close() !!}
                 </div>
             </div>
         </div>
@@ -171,6 +192,18 @@
         </div>
     </footer>
 
+    <!-- SIDENAV -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Programação</a>
+        <a href="#">Design</a>
+        <a href="#">Vendas</a>
+        <a href="#">Marketing</a>
+        <a href="#">Ebooks</a>
+        <a href="#">Artigos Especializados</a>
+    </div>
+
+    <!-- MODAL INSCRIÇÃO -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content" id="form-apply-inscription">

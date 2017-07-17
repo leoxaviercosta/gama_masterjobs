@@ -10,7 +10,8 @@ class Post extends Model
         "title",
         "content",
         "filepath",
-        "fileextension"
+        "fileextension",
+        "operator"
     );
 
     // método que retorna todos os comentarios de um post
