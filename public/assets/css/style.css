@@ -23,18 +23,18 @@ a:active {
 }
 
 .btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #fff;
-    background-color:  #e91d64;
-    padding: 10px 20px 10px 20px;
-    border: 0px;
-    /*border-bottom: 4px solid #460819;*/
-    box-shadow: 0 4px #460819;
-    border-radius: 4px;
-    transition: all .2s ease-out;
-}
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+     color: #fff;
+     background-color:  #e91d64;
+     padding: 10px 20px 10px 20px;
+     border: 0px;
+     /*border-bottom: 4px solid #460819;*/
+     box-shadow: 0 4px #460819;
+     border-radius: 4px;
+     transition: all .2s ease-out;
+ }
 
 .btn:hover {
     color: #460819;
@@ -44,6 +44,31 @@ a:active {
 .btn:active {
     /*border-bottom: 1px solid #460819;*/
     box-shadow: 0 1px #460819;
+    transform: translateY(4px);
+}
+
+.btn-green {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #54c000;
+    padding: 10px 20px 10px 20px;
+    border: 0px;
+    /*border-bottom: 4px solid #460819;*/
+    box-shadow: 0 4px #102600;
+    border-radius: 4px;
+    transition: all .2s ease-out;
+}
+
+.btn-green:hover {
+    color: #102600;
+    transition: all .2s ease-out;
+}
+
+.btn-green:active {
+    /*border-bottom: 1px solid #460819;*/
+    box-shadow: 0 1px #102600;
     transform: translateY(4px);
 }
 
@@ -399,15 +424,20 @@ footer .container form {
     padding: 0 50px 50px 50px;
 }
 
+footer .container form div {
+    padding-bottom: 10px;
+}
+
 footer .container input {
     color:#000;
     height: 50px;
-    width: 150px;
+    width: 100%;
 }
 
 footer .container .btn {
     border-radius: 0;
     box-shadow: 0px 0px;
+    width: 100%;
 }
 
 .box-category .title-category,
@@ -459,5 +489,9 @@ footer .copyright {
     }
     .sub-footer .logo-master-gama {
         padding-bottom: 20px;
+    }
+
+    footer .newsletter {
+        height: 424px;
     }
 }

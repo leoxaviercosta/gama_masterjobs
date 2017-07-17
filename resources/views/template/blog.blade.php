@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style-blog.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <meta name="description" content="O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro?"
     />
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-lg-4 vcenter">
-                <button class="btn" onclick="$('#myModal').modal('show')" style="margin-top: 30px;">INSCRIÇÃO GRATUITA</button>
+                <button class="btn" onclick="$('#myModal').modal('show')" style="margin-top: 30px;">PRÉ-INSCRIÇÃO GRATUITA</button>
             </div>
         </div>
         <br/><br/>
@@ -132,7 +132,7 @@
                     <li>BELO HORIZONTE</li>
                     <li>FLORIANÓPOLIS</li>
                 </ul>
-                <button class="btn" onclick="$('#myModal').modal('show')">INSCRIÇÃO GRATUITA</button>
+                <button class="btn" onclick="$('#myModal').modal('show')">PRÉ-INSCRIÇÃO GRATUITA</button>
             </div>
         </div>
 
@@ -147,14 +147,14 @@
                 <div class="sub-title">
                     Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!
                 </div>
-                <div class="form">
+                <div class="form row">
                     {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
                         <!--<input type="text" name="name" id="name" placeholder="Informe seu nome">-->
-                        {!! Form::text('name', null, ['placeholder'=>'Informe seu nome']) !!}
+                        <div class="col-xs-12 col-sm-4">{!! Form::text('name', null, ['placeholder'=>'Informe seu nome']) !!}</div>
                         <!--<input type="email" name="email" id="email" placeholder="Informe seu email">-->
-                        {!! Form::email('email', null, ['placeholder'=>'Informe seu email']) !!}
+                       <div class="col-xs-12 col-sm-4">{!! Form::email('email', null, ['placeholder'=>'Informe seu email']) !!}</div>
                         <!--<button type="submit" class="btn">ENVIAR</button>-->
-                        {!! Form::button('ENVIAR', ['class'=>'btn', 'type' => 'submit']) !!}
+                        <div class="col-xs-12 col-sm-4">{!! Form::button('ENVIAR', ['class'=>'btn', 'type' => 'submit']) !!}</div>
                     {!! Form::close() !!}
                 </div>
             </div>
@@ -210,6 +210,7 @@
         <a href="#">Vendas</a>
         <a href="#">Marketing</a>
         <a href="#">Ebooks</a>
+        <a href="#">Startups</a>
         <a href="#">Artigos Especializados</a>
     </div>
 

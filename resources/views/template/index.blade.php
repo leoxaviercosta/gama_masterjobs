@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="m9of50l_lHiTVoYlbhcBARSTbYi0PHXWFviE43eySXE" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <meta name="description" content="O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro?" />
 
@@ -63,7 +65,9 @@
         <div class="sub-title">
             Seja um profissional do futuro
         </div>
-
+         <div class="sub-title" style="margin-top: 10px;">
+            EM PARCERIA COM <img src="assets/img/logo-gama.png" class="logo" style="height: 50px;">
+         </div>
         <div class="count-remaining">
             <div class="counter">
                 <span id="time-remaining"></span>
@@ -75,11 +79,8 @@
             </div>
             <br/>
         </div>
-        <button class="btn" id="subscribe-open">INSCRIÇÕES ABERTAS</button>
+        <button class="btn" id="subscribe-open">PRÉ-INSCRIÇÕES ABERTAS</button>
         <br/><br/>
-        <div class="scrollhover">
-            <img src="assets/img/scrollhover.gif">
-        </div>
     </header>
 
     <section class="upgrade-stacks">
@@ -89,12 +90,13 @@
                 <br/>NO MERCADO DIGITAL!
             </h1>
             <div class="sub-title">
-                Somos o Maior Programa de Seleção e
-                <br/>Capacitação de Taletos do Mercado Digital
+                Em parceria com a <b>GAMA ACADEMY</b> estamos realizando a pré-inscrição
+                <br/>para os próximos eventos do programa <b>GAMA EXPERIENCE</b>!
+                <br/>Não perca tempo. <b>FAÇA JÁ SUA PRÉ-INSCRIÇÃO!</b>
             </div>
-            <div class="triangles">
+            <!--<div class="triangles">
                 ▼▼▼
-            </div>
+            </div>-->
 
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-lg-6 stack">
@@ -131,10 +133,10 @@
                         </div>
                         <div class="area">
                             <ul>
-                                <li>Web Developer</li>
-                                <li>iOS Developer</li>
-                                <li>Android Developer</li>
-                                <li>Data Science</li>
+                                <li>User Experience Design</li>
+                                <li>Design Thinking</li>
+                                <li>Product Manager</li>
+                                <li>Front-end</li>
                             </ul>
                         </div>
                     </div>
@@ -152,10 +154,10 @@
                         </div>
                         <div class="area">
                             <ul>
-                                <li>Web Developer</li>
-                                <li>iOS Developer</li>
-                                <li>Android Developer</li>
-                                <li>Data Science</li>
+                                <li>Inside Sales</li>
+                                <li>Inbound Sales</li>
+                                <li>Outbound Sales</li>
+                                <li>Customer success</li>
                             </ul>
                         </div>
                     </div>
@@ -173,10 +175,10 @@
                         </div>
                         <div class="area">
                             <ul>
-                                <li>Web Developer</li>
-                                <li>iOS Developer</li>
-                                <li>Android Developer</li>
-                                <li>Data Science</li>
+                                <li>Inbound Marketing</li>
+                                <li>SEO/SEM</li>
+                                <li>Data Metrics</li>
+                                <li>Growth Hacking</li>
                             </ul>
                         </div>
                     </div>
@@ -184,7 +186,8 @@
             </div>
 
             <br/><br/><br/>
-            <button class="btn" id="apply-subscribe">FAZER INSCRIÇÃO</button>
+            <button class="btn-green" onclick=" window.location = 'http://masterjobs.tech/blog';">ACESSE NOSSO BLOG E FIQUE <br>
+            POR DENTRO DO MERCADO DIGITAL</button>
             <br/><br/><br/>
         </div>
     </section>
@@ -263,14 +266,14 @@
                 <div class="sub-title">
                     Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!
                 </div>
-                <div class="form">
+                <div class="form row">
                     {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
                         <!--<input type="text" name="name" id="name" placeholder="Informe seu nome">-->
-                        {!! Form::text('name', null, ['placeholder'=>'Informe seu nome']) !!}
+                        <div class="col-xs-12 col-sm-4">{!! Form::text('name', null, ['placeholder'=>'Informe seu nome']) !!}</div>
                         <!--<input type="email" name="email" id="email" placeholder="Informe seu email">-->
-                        {!! Form::email('email', null, ['placeholder'=>'Informe seu email']) !!}
+                       <div class="col-xs-12 col-sm-4">{!! Form::email('email', null, ['placeholder'=>'Informe seu email']) !!}</div>
                         <!--<button type="submit" class="btn">ENVIAR</button>-->
-                        {!! Form::button('ENVIAR', ['class'=>'btn', 'type' => 'submit']) !!}
+                        <div class="col-xs-12 col-sm-4">{!! Form::button('ENVIAR', ['class'=>'btn', 'type' => 'submit']) !!}</div>
                     {!! Form::close() !!}
                 </div>
             </div>

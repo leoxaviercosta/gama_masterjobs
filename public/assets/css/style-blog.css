@@ -299,10 +299,14 @@ footer .container form {
     padding: 0 50px 50px 50px;
 }
 
+footer .container form div {
+    padding-bottom: 10px;
+}
+
 footer .container input {
     color:#000;
     height: 50px;
-    width: 150px;
+    width: 100%;
 }
 
 footer .container .btn {
@@ -348,7 +352,7 @@ footer .copyright {
 }
 /*modal bootstrap*/
 .modal {
-    top: 60px;
+    top: 140px;
 }
 
 .modal-header {
@@ -370,7 +374,7 @@ footer .copyright {
         margin: 7px auto 0 auto ;
     }
     footer .newsletter {
-        height: 294px;
+        height: 424px;
     }
     .sub-footer .logo-master-gama {
         padding-bottom: 20px;
