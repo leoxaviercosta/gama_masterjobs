@@ -4,8 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Leads;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Input;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
 
 class RegisterController extends Controller
 {
@@ -20,17 +19,13 @@ class RegisterController extends Controller
     }
 
     public function register(Request $request) {
-        $data = $request->toArray();
-        $file = $request->file('file');
-        if (is_object($file)) {
-            $data['filename']      = $file->getClientOriginalName();
-            $data['fileextension'] = $file->getClientOriginalExtension();
+        ini_set('xdebug.max_nesting_level', 500);
 
-            $file->move('uploads', $file->getClientOriginalName());
-        }
+        $data = array('posts'=>"Virat Gandhi") ;
 
-        dd($data);
-        $this->leads->create($request->all());
-        return redirect()->route('home');
+        $mail = new
+        dd('teste');
+        //$this->leads->create($request->all());
+        //return redirect()->route('home');
     }
 }

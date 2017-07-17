@@ -26,6 +26,7 @@ Route::controllers([
 ]);
 
 Route::get('/', ['as' => 'home', 'uses' => 'PostsController@index']);
+Route::get('blog', ['as' => 'blog', 'uses' => 'PostsController@posts']);
 Route::post('register', ['as' => 'register', 'uses' => 'RegisterController@register']);
 Route::post('comment', ['as' => 'comment', 'uses' => 'RegisterController@comment']);
 
