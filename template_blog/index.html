@@ -33,11 +33,20 @@
                 </div>
                 <div class="links hidden-xs hidden-sm">
                     <ul>
-                        <li><a id="depoimentos" href="#depoimentos">CATEGORIAS</a></li>
+                        <li>
+                            <a href="#">CATEGORIAS</a>
+                            <ul>
+                                <li><a href="#">Programação</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Vendas</a></li>
+                                <li><a href="#">Marketing</a></li>
+                            </ul>
+                        </li>
+                        <!--<li><a id="depoimentos" href="#depoimentos">CATEGORIAS</a></li>-->
                         <li><a>MATERIAIS GRATUITOS</a></li>
                         <li><a id="contato" href="#contato">CONTATO</a></li>
                         <li>
-                            <button class="btn btn-want-upgrade">QUERO UM UPGRADE NA CARREIRA</button>
+                            <button class="btn btn-want-upgrade" onclick="$('#myModal').modal('show')">QUERO UM UPGRADE NA CARREIRA</button>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +54,7 @@
         </div>
         <br/>
         <div class="row" style="margin: 80px auto 0 auto;max-width: 900px;width: 100%;">
-            <div class="col-xs-8">
+            <div class="col-xs-12 col-sm-12 col-lg-8">
                 <div class="title">
                     GAMA EXPERIENCE
                 </div>
@@ -56,15 +65,15 @@
                     SÃO PAULO | RIO DE JANEIRO | BELO HORIZONTE | FLORIANÓPOLIS
                 </div>
             </div>
-            <div class="col-xs-4 vcenter">
-                <button class="btn" id="subscribe-open" style="margin-top: 30px;">INSCRIÇÃO GRATUITA</button>
+            <div class="col-xs-12 col-sm-12 col-lg-4 vcenter">
+                <button class="btn" onclick="$('#myModal').modal('show')" style="margin-top: 30px;">INSCRIÇÃO GRATUITA</button>
             </div>
         </div>
         <br/><br/>
     </header>
     <br/>
     <div class="row" style="margin: 0 auto; max-width: 1000px; width: 100%;padding: 20px 0 30px 0;">
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-sm-8 col-lg-8">
             <div class="col-xs-12 mj-blog">
                 <div class="mj-blog-title">
                     <div class="mj-blog-title-description">
@@ -155,7 +164,7 @@
             </div>
         </div>
 
-        <div class="col-xs-4">
+        <div class="col-sm-4 col-lg-4 hidden-xs">
             <div class="box-work-dream">
                 <div class="title">
                     QUER O EMPREGO DOS SONHOS EM UMA DAS MAIORES STARTUPS DO PAÍS?
@@ -237,6 +246,16 @@
         </div>
     </footer>
 
+    <!-- SIDENAV -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- MODAL INSCRIÇÃO -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content" id="form-apply-inscription">
