@@ -49,8 +49,8 @@ $(".btn-want-upgrade").click(function () {
 $("#subscribe").submit(function (e) {
     e.preventDefault();
     var urlApi = "http://urldaapi";
-    var data = {'email': $("#subscribe #email").val()};
-    $.post(urlApi,  data, function (data) {
+    var data = { 'email': $("#subscribe #email").val() };
+    $.post(urlApi, data, function (data) {
         //$(".result").html(data);
     });
 });
@@ -64,4 +64,8 @@ $(window).scroll(function (event) {
         $("header .menu").css('background-color', 'rgba(0, 0, 0, 0.3');
     }
     // Do something
+});
+
+$('#time-remaining').countdown('2017/07/22', function (event) {
+    $(this).html(event.strftime('%D DIAS %H:%M:%S'));
 });

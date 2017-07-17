@@ -68,7 +68,7 @@ header .menu {
     padding: 17px;
     position: fixed;
     z-index: 9999;
-    transition: width 0.5s ease-in-out;
+    transition: all .2s ease-out;
 }
 
 header .menu .container{
@@ -135,7 +135,7 @@ header .menu .links .active:before {
     height: 2px;
     width: 100%;
     background-color: #06fa9f;
-    transition: width 0.5s ease-in-out;
+    transition: width 0.8s ease-in-out;
 }
 
 header .menu .btn-want-upgrade {
