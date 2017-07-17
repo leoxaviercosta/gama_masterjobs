@@ -19,12 +19,8 @@
     @include('admin.posts._form')
 
     <div class="form-group">
-        {!! Form::label('tags', 'Tags:') !!}
+        {!! Form::label('tags', 'Tags (separado por vírgula):') !!}
         {!! Form::text('tags', null, ['class' => 'form-control']) !!}
-        <br />
-        <span class="btn btn-default btn-file">
-            Selecionar Arquivo  {{ Form::file('file', '', array('id' => '', 'class' => '')) }}
-        </span>
     </div>
 
     <div class="form-group">
