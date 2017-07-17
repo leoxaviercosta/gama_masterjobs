@@ -86,7 +86,7 @@
                             {{ $post->title }}
                         </div>
                         <div class="mj-blog-title-sub-description">
-                            <!--<b>Postado por:</b> <span id="mj-blog-post-author">Roberth</span> |-->
+                            <b>Postado por:</b> <span id="mj-blog-post-author">{{ $post->operator }}</span> |
                             <b>Categoria:</b> <span id="mj-blog-post-category">
                                 @foreach($post->tags as $tag)
                                     {{ $tag->name }} |
