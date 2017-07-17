@@ -78,14 +78,23 @@ header .menu .container{
     margin: 0 auto;
 }
 
-header .menu .logo img {
-     width: 200px;
-     float: left;
-     margin-top: 7px;
-    /*font-family: 'Montserrat', sans-serif; 
-    text-align: left;
-    font-weight: 900;
-    text-shadow: 2px 2px 0px #2d6245;*/
+@media screen and (min-width: 992px){
+    header .menu .logo img {
+        width: 200px;
+        float: left;
+        margin-top: 7px;
+        /*font-family: 'Montserrat', sans-serif; 
+        text-align: left;
+        font-weight: 900;
+        text-shadow: 2px 2px 0px #2d6245;*/
+    }
+}
+
+@media screen and (max-width: 991px){
+    header .menu .logo img {
+        width: 200px;
+        margin: 7px auto 0 auto ;
+    }
 }
 
 header .menu ul {
@@ -173,8 +182,19 @@ header .sub-title
 header .count-remaining .counter {
     font-family: 'Montserrat', sans-serif;
     color: #06fa9f;
-    font-size: 70px;
     text-shadow: 2px 2px 0px #2d6245;
+}
+
+@media screen and (min-width: 992px){
+    header .count-remaining .counter {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    header .count-remaining .counter {
+        font-size: 40px;
+    }
 }
 
 header .count-remaining .remaining {
@@ -402,6 +422,7 @@ footer .container .btn {
     list-style: none;
 }
 
+/**/
 footer .sub-footer {
     padding-top: 30px;
     margin: 0 auto;
@@ -429,4 +450,14 @@ footer .copyright {
 .pallet-colors {
     color: #7ac043; /*GAMA*/
     color: #1af2a0; /*SOBRE O HEADER*/
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px){
+    footer .newsletter {
+        height: 294px;
+    }
+    .sub-footer .logo-master-gama {
+        padding-bottom: 20px;
+    }
 }

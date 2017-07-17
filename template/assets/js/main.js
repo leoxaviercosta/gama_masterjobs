@@ -69,3 +69,7 @@ $(window).scroll(function (event) {
 $('#time-remaining').countdown('2017/07/22', function (event) {
     $(this).html(event.strftime('%D DIAS %H:%M:%S'));
 });
+
+$(window).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+});
