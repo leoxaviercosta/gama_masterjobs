@@ -15,7 +15,7 @@
 
     <meta name="google-site-verification" content="m9of50l_lHiTVoYlbhcBARSTbYi0PHXWFviE43eySXE" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
     <meta name="description" content="O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro?" />
 
@@ -40,7 +40,7 @@
         <div class="menu">
             <div class="container">
                 <div class="logo">
-                    <img src="./assets/img/logo-tech-white.png">
+                    <a href="/" alt="MasterJobs"><img src="assets/img/logo-tech-white.png"></a>
                 </div>
                 <div class="links hidden-xs hidden-sm">
                     <ul>
@@ -95,9 +95,11 @@
                 <br/>Belo Horizonte, São Paulo, Rio de Janeiro e Florianópolis!
                 <br/>Não perca tempo. <b>FAÇA JÁ SUA PRÉ-INSCRIÇÃO!</b>
             </div>
-            <!--<div class="triangles">
-                ▼▼▼
-            </div>-->
+            <div style="padding: 10px;">
+                <span style="font-size: 18px;">
+                    <span style="font-size: 22px;color: #06fa9f;"><b>8 EM CADA 10</b></span> 
+                participantes são <span style="font-size: 22px;color: #06fa9f;"><b>CONTRATADOS</b></span> ao final do programa!</span>
+            </div>
 
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-lg-6 stack">
@@ -265,7 +267,7 @@
                     NÃO PERCA TEMPO E FAÇA SUA PRÉ-INSCRIÇÃO
                 </div>
                 <div class="sub-title">
-                    Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!
+                    Cadastre-se para receber os nossos conteúdos por email e seja um membro da Comunidade Gama Experience!
                 </div>
                 <div class="form row">
                     {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
@@ -280,7 +282,7 @@
             </div>
         </div>
         <div class="sub-footer">
-            <div class="row">
+            <div class="row" style="margin-right: 0px;margin-left: 0px;">
                 <div class="col-xs-12 col-sm-8 col-lg-8 logo-master-gama">
                     <div class="col-xs-6">
                         <img src="assets/img/logo.png" class="logo">

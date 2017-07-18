@@ -31,6 +31,7 @@ a:active {
     background: #fff;
     color: #e91d64;
     transition: all .2s ease-out;
+    white-space: normal;
 }
 
 .btn-flat:hover {
@@ -51,6 +52,7 @@ a:active {
     box-shadow: 0 4px #460819;
     border-radius: 4px;
     transition: all .2s ease-out;
+    white-space: normal;
 }
 
 .btn:hover {
@@ -588,7 +590,7 @@ footer .copyright {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #e91d64;
     display: block;
     transition: 0.3s
 }
