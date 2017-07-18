@@ -17,7 +17,7 @@
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
-    <meta name="description" content="O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro?" />
+    <meta name="description" content="O blog masterjobs e Gama Academy ajudam centenas de profissionais transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Deseja se tornar um profissional do futuro? Nós queremos ajudar você!" />
 
     <meta name="robots" content="index,follow" />
 
@@ -95,10 +95,26 @@
                 <br/>Belo Horizonte, São Paulo, Rio de Janeiro e Florianópolis!
                 <br/>Não perca tempo. <b>FAÇA JÁ SUA PRÉ-INSCRIÇÃO!</b>
             </div>
-            <div style="padding: 10px;">
-                <span style="font-size: 18px;">
-                    <span style="font-size: 22px;color: #06fa9f;"><b>8 EM CADA 10</b></span> 
-                participantes são <span style="font-size: 22px;color: #06fa9f;"><b>CONTRATADOS</b></span> ao final do programa!</span>
+            <div style="border: 1px solid #000">
+                <div style="background-color: #000;padding: 15px;color: #fff;font-size: 25px;font-weight: 400;font-family: 'Montserrat', sans-serif;">Você conhece o programa GAMA EXPERIENCE?</div>
+                <div style="background-color: #06fa9f;color:#000;padding: 20px;text-align:left;">
+                    <p>É a mistura do programa O Aprendiz com o Tropa de Elite. Mas como assim?</p>
+                    <p>É um treinamento que desenvolve talentos para trabalhar em startups através de conceitos, teorias e muita mão-na-massa, proporcionando uma experiência que simula o dia a dia do ambiente de trabalho.</p>
+
+                    <p>Como funciona:</p>
+                    <ul style="list-style: none;">
+                        <li>100 talentos são selecionados (júnior, pleno ou sênior);</li>
+                        <li>Processo seletivo com avaliação comportamental e prova técnica;</li>
+                        <li>Treinamento intensivo hardcore de 5 semanas;</li>
+                        <li>Aulas específicas em Programação (Hackers), Design (Hipsters), Business/Vendas (Hustlers) e Marketing Digital (Hypers).</li>
+                        <li>No fim, os sobreviventes participam de uma feira de contratações (De cada 10 alunos formados, 8 são contratados por empresas parceiras).</li>
+                    </ul>
+
+                    <span style="font-size: 18px;">
+                        <span style="font-size: 22px;color: #fff;"><b>8 EM CADA 10</b></span> 
+                    participantes são <span style="font-size: 22px;color: #fff;"><b>CONTRATADOS</b></span> ao final do programa!
+                    </span>
+                </div>
             </div>
 
             <div class="row">
