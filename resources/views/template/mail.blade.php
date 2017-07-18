@@ -48,7 +48,7 @@
         }
     </style>
     <div class="container">
-        <p>Olá {{$message->name}},</p>
+        <p>Olá,</p>
 
         <p>Parabéns! Sua pré-inscrição foi realizada com sucesso!</p>
         
