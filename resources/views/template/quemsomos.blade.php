@@ -13,10 +13,9 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style-blog.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
-    <meta name="description" content="O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro?"
-    />
+    <meta name="description" content="O blog masterjobs e Gama Academy ajudam centenas de profissionais transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Deseja se tornar um profissional do futuro? Nós queremos ajudar você!" />
 
     <meta name="robots" content="index,follow" />
 
@@ -60,15 +59,15 @@
                             </ul>
                         </li>
                         <li><a id="contato" href="#contato">CONTATO</a></li>
-                        <li style="padding-left: 210px;">
-                            <button class="btn-green btn-know-gama" onclick="window.location = '/'">CONHEÇA GAMA ACADEMY</button>
+                        <li style="padding-left: 140px;">
+                            <button class="btn-green btn-know-gama" onclick="window.location = '/'">CONHEÇA O GAMA EXPERIENCE</button>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <br/>
-        <div class="row" style="margin: 80px auto 0 auto;max-width: 900px;width: 100%;">
+        <div class="row" style="margin: 80px auto 0 auto;max-width: 950px;width: 100%;">
             <div class="col-xs-12 col-sm-8 col-lg-8">
                 <div class="title">
                     GAMA EXPERIENCE
@@ -81,7 +80,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-lg-4 vcenter">
-                <button class="btn" onclick="$('#myModal').modal('show')" style="margin-top: 30px;">PRÉ-INSCRIÇÃO GRATUITA</button>
+                <button class="btn" onclick="$('#myModal').modal('show')" style="margin-top: 30px; white-space: nowrap;">PRÉ-INSCRIÇÃO GRATUITA</button>
             </div>
         </div>
         <br/><br/>
