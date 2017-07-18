@@ -48,37 +48,20 @@
         }
     </style>
     <div class="container">
-        <p>Olá, pessoal!</p>
+        <p>Olá {nome},</p>
 
-        <p>Você conhece o programa <b>Gama Experience?</b></p>
-
-        <p>É a mistura do programa <b>O Aprendiz</b> com o <b>Tropa de Elite</b>. Mas como assim?<br/> É um treinamento que
-            <b>desenvolve talentos
-            para trabalhar em startups</b> através de conceitos, teorias e muita mão-na-massa, proporcionando
-            uma experiência que simula o dia a dia do ambiente de trabalho.</p>
-
-        <b>Como funciona:</b>
-        <ul>
-            <li>- <b>100 talentos</b> são selecionados (júnior, pleno ou sênior);</li>
-            <li>- Processo seletivo com avaliação comportamental e prova técnica;
-                <li>- Treinamento intensivo hardcore de <b>5 semanas;</b></li>
-                <li>- Aulas específicas em <b>Programação</b> (Hackers), <b>Design</b> (Hipsters), <b>Business/Vendas</b> (Hustlers)
-                    e <b>Marketing Digital</b> (Hypers).
-                </li>
-                <li>- No fim, os sobreviventes participam de uma feira de contratações (De cada 10 alunos formados, <b>8 são contratados
-                    por empresas parceiras</b>).</li>
-        </ul>
-
-        <p style="color:#54c000;font-weight: bold;">QUER TER UM UPGRADE NA CARREIRA E AINDA TER OPORTUNIDADES REAIS DE TRABALHO NO MERCADO DIGITAL?</p>
-
-        <p><b>NÃO PERCA TEMPO!</b></p>
-        <p><b>Próximos programas:</b> São Paulo | Rio de Janeiro | Belo Horizonte | Florianópolis</p>
-
-        <p><b>Faça sua pré-inscrição até <span style="color:#54c000;">sexta-feira, às 23h59</span> para concorrer a uma vaga!</b>            Quando atingirmos 2.000 inscrições, encerraremos o processo de pré-cadastro.</p>
-
+        <p>Parabéns! Sua pré-inscrição foi realizada com sucesso!</p>
+        
+        <p>Agradecemos seu interesse em participar do Gama Experience, o maior programa de seleção e capacitação de talentos do mercado digital. </p>
+        
+        <p>Quanto atingirmos 2.000 cadastros, encerraremos a pré-inscrição, mesmo antes de sexta-feira, dia 21/07. Caso tenha algum amigo para indicar, corra para avisá-lo - costumamos fechar as inscrições em poucos dias!</br>
+        
+        <p>Em breve, entraremos em contato com mais informações sobre o programa e as próximas etapas! </p>
+        
+        <p>Abraços,<br/> 
+        
+        Equipe masterjobs</p>
         <br/>
-        <center><a class="btn" href="http://www.masterjobs.tech" target="_blank">INSCRIÇÃO GRATUITA</a></center>
-        <br/><br/>
         <center>
             <div style="text-align: center; margin: 0 auto;padding-bottom: 10px;">
                 <div style="float:left; width: 50%;text-align: right;">
