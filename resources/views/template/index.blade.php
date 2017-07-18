@@ -95,25 +95,20 @@
                 <br/>Belo Horizonte, São Paulo, Rio de Janeiro e Florianópolis!
                 <br/>Não perca tempo. <b>FAÇA JÁ SUA PRÉ-INSCRIÇÃO!</b>
             </div>
-            <div style="border: 1px solid #000">
-                <div style="background-color: #000;padding: 15px;color: #fff;font-size: 25px;font-weight: 400;font-family: 'Montserrat', sans-serif;">Você conhece o programa GAMA EXPERIENCE?</div>
-                <div style="background-color: #06fa9f;color:#000;padding: 20px;text-align:left;">
-                    <p>É a mistura do programa O Aprendiz com o Tropa de Elite. Mas como assim?</p>
+            <div style="border: 1px #54c000 solid;">
+                <div style="background-color: #54c000;padding: 15px;color: #fff;font-size: 25px;font-weight: 400;font-family: 'Montserrat', sans-serif;">Você conhece o programa GAMA EXPERIENCE?</div>
+                <div style="background-color: #fff;color:#000;padding: 20px;text-align:left;">
+                    <p>É a mistura do programa <span style="color: #54c000;"><b>O Aprendiz</b></span> com o <span style="color: #54c000;"><b>Tropa de Elite</b></span>. Mas como assim?</p>
                     <p>É um treinamento que desenvolve talentos para trabalhar em startups através de conceitos, teorias e muita mão-na-massa, proporcionando uma experiência que simula o dia a dia do ambiente de trabalho.</p>
 
                     <p>Como funciona:</p>
                     <ul style="list-style: none;">
-                        <li>100 talentos são selecionados (júnior, pleno ou sênior);</li>
-                        <li>Processo seletivo com avaliação comportamental e prova técnica;</li>
-                        <li>Treinamento intensivo hardcore de 5 semanas;</li>
-                        <li>Aulas específicas em Programação (Hackers), Design (Hipsters), Business/Vendas (Hustlers) e Marketing Digital (Hypers).</li>
-                        <li>No fim, os sobreviventes participam de uma feira de contratações (De cada 10 alunos formados, 8 são contratados por empresas parceiras).</li>
+                        <li><span style="color: #54c000;">►</span> 100 talentos são selecionados (júnior, pleno ou sênior);</li>
+                        <li><span style="color: #54c000;">►</span> Processo seletivo com avaliação comportamental e prova técnica;</li>
+                        <li><span style="color: #54c000;">►</span> Treinamento intensivo hardcore de 5 semanas;</li>
+                        <li><span style="color: #54c000;">►</span> Aulas específicas em Programação (Hackers), Design (Hipsters), Business/Vendas (Hustlers) e Marketing Digital (Hypers).</li>
+                        <li><span style="color: #54c000;">►</span> No fim, os sobreviventes participam de uma feira de contratações (De cada 10 alunos formados, 8 são contratados por empresas parceiras).</li>
                     </ul>
-
-                    <span style="font-size: 18px;">
-                        <span style="font-size: 22px;color: #fff;"><b>8 EM CADA 10</b></span> 
-                    participantes são <span style="font-size: 22px;color: #fff;"><b>CONTRATADOS</b></span> ao final do programa!
-                    </span>
                 </div>
             </div>
 
