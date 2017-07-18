@@ -151,9 +151,9 @@
                 <div class="form row">
                     {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
                         <!--<input type="text" name="name" id="name" placeholder="Informe seu nome">-->
-                        <div class="col-xs-12 col-sm-4">{!! Form::text('name', null, ['placeholder'=>'Informe seu nome']) !!}</div>
+                        <div class="col-xs-12 col-sm-4">{!! Form::text('name', null, ['placeholder'=>'Informe seu nome', 'required' => 'required']) !!}</div>
                         <!--<input type="email" name="email" id="email" placeholder="Informe seu email">-->
-                       <div class="col-xs-12 col-sm-4">{!! Form::email('email', null, ['placeholder'=>'Informe seu email']) !!}</div>
+                       <div class="col-xs-12 col-sm-4">{!! Form::email('email', null, ['placeholder'=>'Informe seu email', 'required' => 'required']) !!}</div>
                         <!--<button type="submit" class="btn">ENVIAR</button>-->
                         <div class="col-xs-12 col-sm-4">{!! Form::button('ENVIAR', ['class'=>'btn', 'type' => 'submit']) !!}</div>
                     {!! Form::close() !!}
