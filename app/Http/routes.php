@@ -34,7 +34,7 @@ Route::get('quemsomos', ['as' => 'quemsomos', 'uses' => 'PageController@quemsomo
 
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('', ['as' => 'admin.posts.index', 'uses' => 'PostAdminController@index']);
-    Route::get('leads', ['as' => 'admin.leads', 'uses' => 'LeadsController@index']);
+    Route::get('leads', ['as' => 'admin.leads.index', 'uses' => 'LeadsController@index']);
     Route::group(['prefix' => 'posts'], function() {
         Route::get('create', ['as' => 'admin.posts.create', 'uses' => 'PostAdminController@create']);
         Route::post('store', ['as' => 'admin.posts.store', 'uses' => 'PostAdminController@store']); 
