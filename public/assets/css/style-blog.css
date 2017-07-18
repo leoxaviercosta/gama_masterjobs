@@ -361,6 +361,12 @@ footer .copyright {
     vertical-align: middle;
     float: none;
 }
+
+/*video, embed, iframe {
+  width: 100%    !important;
+  height: auto   !important;
+}*/
+
 /*modal bootstrap*/
 .modal {
     top: 140px;
