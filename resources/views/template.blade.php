@@ -33,6 +33,12 @@
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            @if (!Auth::guest())
+            <ul class="nav navbar-nav" style="margin-left: 30px; margin-top: 2px;">
+                <li><a href="/admin">Posts</a></li>
+                <li><a href="/leads">Leads</a></li>
+            </ul>
+            @endif
             <ul class="nav navbar-nav navbar-right">
                 @if (Auth::guest())
                     <li><a href="{{ url('/auth/login') }}">Login</a></li>

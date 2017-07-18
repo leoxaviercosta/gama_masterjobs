@@ -194,7 +194,7 @@
 
     <section class="student-testimonials">
         <div class="container">
-            <h1>DEPOIMENTOS DOS ALUNO</h1>
+            <h1>DEPOIMENTOS DOS ALUNOS</h1>
             <div class="sub-title">
                 Transformamos Talentos e Conectamos esses profisionais a
                 <br/>oportunidades Reais de Trabalho nas Maiores Startups e
