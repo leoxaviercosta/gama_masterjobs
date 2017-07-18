@@ -21,6 +21,7 @@ class RegisterController extends Controller
     public function register(Request $request) {
         config(['app.timezone' => 'America/Sao_Paulo']);
         ini_set('xdebug.max_nesting_level', 500);
+
         $data = $request->all();
         $data['ip_address'] = $request->ip();
 
