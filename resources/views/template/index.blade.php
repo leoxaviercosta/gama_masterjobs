@@ -297,8 +297,8 @@
                             Categorias do Blog
                         </div>
                         <ul>
-                            <li><a>Programadores</a></li>
-                            <li><a>Designers</a></li>
+                            <li><a>Programação</a></li>
+                            <li><a>Design</a></li>
                             <li><a>Marketing</a></li>
                             <li><a>Vendas</a></li>
                         </ul>
