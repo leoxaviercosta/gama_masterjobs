@@ -64,6 +64,31 @@ a:active {
     transform: translateY(4px);
 }
 
+.btn-green {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #54c000;
+    padding: 10px 20px 10px 20px;
+    border: 0px;
+    /*border-bottom: 4px solid #460819;*/
+    box-shadow: 0 4px #102600;
+    border-radius: 4px;
+    transition: all .2s ease-out;
+}
+
+.btn-green:hover {
+    color: #102600;
+    transition: all .2s ease-out;
+}
+
+.btn-green:active {
+    /*border-bottom: 1px solid #460819;*/
+    box-shadow: 0 1px #102600;
+    transform: translateY(4px);
+}
+
 header {
     text-align: center;
     top: 0;

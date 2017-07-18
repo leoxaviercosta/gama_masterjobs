@@ -59,7 +59,7 @@
                         </li>                        
                         <li><a id="contato" href="#contato">CONTATO</a></li>
                         <li style="padding-left: 256px;">
-                            <button class="btn btn-know-gama" onclick="window.location = '/'">CONHEÇA GAMA ACADEMY</button>
+                            <button class="btn-green btn-know-gama" onclick="window.location = '/'">CONHEÇA GAMA ACADEMY</button>
                         </li>
                     </ul>
                 </div>
