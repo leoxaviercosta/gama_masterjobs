@@ -208,7 +208,6 @@
         <a href="#">Design</a>
         <a href="#">Vendas</a>
         <a href="#">Marketing</a>
-        <a href="#">Ebooks</a>
         <a href="#">Startups</a>
         <a href="#">Artigos Especializados</a>
     </div>
