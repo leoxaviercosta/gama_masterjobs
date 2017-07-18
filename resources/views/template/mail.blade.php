@@ -48,7 +48,7 @@
         }
     </style>
     <div class="container">
-        <p>Olá {nome},</p>
+        <p>Olá {{$data->name}},</p>
 
         <p>Parabéns! Sua pré-inscrição foi realizada com sucesso!</p>
         
