@@ -48,7 +48,7 @@
                         <li><a id="depoimentos" href="#depoimentos">DEPOIMENTOS</a></li>
                         <li><a id="depoimentos" href="/blog">BLOG</a></li>
                         <li><a id="contato" href="#contato">CONTATO</a></li>
-                        <li>
+                        <li style="padding-left: 136px;">
                             <button class="btn btn-want-upgrade" href="#contato">QUERO UM UPGRADE NA CARREIRA</button>
                         </li>
                     </ul>

@@ -276,10 +276,12 @@ header .count-remaining .remaining div {
 .box-next-editions ul li {
     font-weight: 700;
     text-align: left;
+    font-weight: normal;
 }
 
 footer {
     background-color: #fff;
+    width: 100%;
 }
 
 footer .newsletter{

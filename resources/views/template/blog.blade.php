@@ -117,7 +117,7 @@
 
         <div class="col-sm-4 col-lg-4 hidden-xs" >
             <!-- style="width:333.3333px;top: 80px;" data-spy="affix" data-offset-top="0" -->
-            <div id="box-dream" style="position:fixed;width:333.3333px; z-index: -1;">
+            <div id="box-dream" style="position:fixed;width:333.3333px; z-index: 10;">
                 <div class="box-work-dream">
                     <div class="title">
                         QUER O EMPREGO DOS SONHOS EM UMA DAS MAIORES STARTUPS DO PAÍS?
@@ -128,10 +128,10 @@
                 <div class="box-next-editions">
                     <div class="title">PRÓXIMOS PROGRAMAS:</div>
                     <ul>
-                        <li>SÃO PAULO</li>
-                        <li>RIO DE JANEIRO</li>
-                        <li>BELO HORIZONTE</li>
-                        <li>FLORIANÓPOLIS</li>
+                        <li><b>SÃO PAULO</b> - Setembro</li>
+                        <li><b>RIO DE JANEIRO</b> - Novembro</li>
+                        <li><b>BELO HORIZONTE</b> - Outubro</li>
+                        <li><b>FLORIANÓPOLIS</b> - Setembro</li>
                     </ul>
                     <button class="btn" onclick="$('#myModal').modal('show')">PRÉ-INSCRIÇÃO GRATUITA</button>
                 </div>
@@ -139,7 +139,7 @@
         </div>
     </div>
 
-    <footer class="z-index: 1;">
+    <footer style="z-index: 20; position: absolute;">
         <div class="newsletter">
             <div class="container">
                 <div class="title">
@@ -179,8 +179,8 @@
                             Categorias do Blog
                         </div>
                         <ul>
-                            <li><a>Programadores</a></li>
-                            <li><a>Designers</a></li>
+                            <li><a>Programação</a></li>
+                            <li><a>Design</a></li>
                             <li><a>Marketing</a></li>
                             <li><a>Vendas</a></li>
                         </ul>
