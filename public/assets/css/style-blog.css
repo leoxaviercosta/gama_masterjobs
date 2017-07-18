@@ -31,6 +31,7 @@ a:active {
     background: #fff;
     color: #e91d64;
     transition: all .2s ease-out;
+    white-space: normal;
 }
 
 .btn-flat:hover {
@@ -51,6 +52,7 @@ a:active {
     box-shadow: 0 4px #460819;
     border-radius: 4px;
     transition: all .2s ease-out;
+    white-space: normal;
 }
 
 .btn:hover {

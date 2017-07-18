@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style-blog.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
     <meta name="description" content="O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro?"
     />
@@ -162,7 +162,7 @@
             </div>
         </div>
         <div class="sub-footer">
-            <div class="row">
+            <div class="row" style="margin-right: 0px;margin-left: 0px;">
                 <div class="col-xs-12 col-sm-8 col-lg-8 logo-master-gama">
                     <div class="col-xs-6">
                         <img src="assets/img/logo.png" class="logo">
