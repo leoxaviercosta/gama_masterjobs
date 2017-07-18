@@ -22,8 +22,10 @@ class RegisterController extends Controller
         config(['app.timezone' => 'America/Sao_Paulo']);
         ini_set('xdebug.max_nesting_level', 500);
 
+        $ipv4_address = gethostbyname(gethostbyaddr($_SERVER['REMOTE_ADDR']));
         $data = $request->all();
-        $data['ip_address'] = $request->ip();
+        $data['ipv4_address'] = $ipv4_address;
+        $data['ipv6_address'] = $request->ip();
 
         $this->leads->create($data);
         if ($this->html_email($data))
