@@ -186,7 +186,7 @@
             </div>
 
             <br/><br/><br/>
-            <button class="btn-green" onclick=" window.location = 'http://masterjobs.tech/blog';">ACESSE NOSSO BLOG E FIQUE <br>
+            <button class="btn-green" onclick=" window.location = '/blog';">ACESSE NOSSO BLOG E FIQUE <br>
             POR DENTRO DO MERCADO DIGITAL</button>
             <br/><br/><br/>
         </div>
