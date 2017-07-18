@@ -39,7 +39,7 @@
         <div class="menu">
             <div class="container">
                 <div class="logo">
-                    <a href="/blog" alt="MasterJobs"><img src="assets/img/logo-tech-white.png"></a>
+                    <a href="/blog"><img src="assets/img/logo-tech-white.png"></a>
                 </div>
                 <div class="hidden-md hidden-lg">
                     <button type="button" onclick="openNav()" class="btn btn-default btn-sm">
@@ -48,7 +48,7 @@
                 </div>
                 <div class="links hidden-xs hidden-sm">
                     <ul>
-                        <li><a id="quemsomos" href="/quemsomos">QUEM SOMOS</a></li>
+                        <li><a id="blog" href="/blog">BLOG</a></li>
                         <li>
                             <a href="#">CATEGORIAS</a>
                             <ul>
@@ -57,7 +57,7 @@
                                 <li><a href="#">Vendas</a></li>
                                 <li><a href="#">Marketing</a></li>
                             </ul>
-                        </li>                        
+                        </li>
                         <li><a id="contato" href="#contato">CONTATO</a></li>
                         <li style="padding-left: 140px;">
                             <button class="btn-green btn-know-gama" onclick="window.location = '/'">CONHEÇA O GAMA EXPERIENCE</button>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <br/>
-        <div class="row" style="margin: 80px auto 0 auto;max-width: 900px;width: 100%;">
+        <div class="row" style="margin: 80px auto 0 auto;max-width: 950px;width: 100%;">
             <div class="col-xs-12 col-sm-8 col-lg-8">
                 <div class="title">
                     GAMA EXPERIENCE
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-lg-4 vcenter">
-                <button class="btn" onclick="$('#myModal').modal('show')" style="margin-top: 30px;">PRÉ-INSCRIÇÃO GRATUITA</button>
+                <button class="btn" onclick="$('#myModal').modal('show')" style="margin-top: 30px; white-space: nowrap;">PRÉ-INSCRIÇÃO GRATUITA</button>
             </div>
         </div>
         <br/><br/>
