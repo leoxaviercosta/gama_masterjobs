@@ -265,7 +265,7 @@
                     NÃO PERCA TEMPO E FAÇA SUA PRÉ-INSCRIÇÃO
                 </div>
                 <div class="sub-title">
-                    Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!
+                    Cadastre-se para receber os nossos conteúdos por email e seja um membro da Comunidade Gama Experience!
                 </div>
                 <div class="form row">
                     {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
