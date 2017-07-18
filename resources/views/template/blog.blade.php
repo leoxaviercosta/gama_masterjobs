@@ -226,18 +226,18 @@
                         <div class="col-xs-12">
                             <span>NOME COMPLETO</span><br/>
                             <!--<input type="text" placeholder="Informe seu nome"><br/>-->
-                            {!! Form::text('name', null, ['placeholder'=>'Informe seu nome']) !!} <br />
+                            {!! Form::text('name', null, ['placeholder'=>'Informe seu nome', 'required' => 'required']) !!} <br />
                         </div>
 
                         <div class="col-xs-12">
                             <span>EMAIL</span><br/>
                             <!--<input type="email" placeholder="Informe seu email"><br/>-->
-                            {!! Form::email('email', null, ['placeholder'=>'Informe seu email']) !!} <br />
+                            {!! Form::email('email', null, ['placeholder'=>'Informe seu email', 'required' => 'required']) !!} <br />
                         </div>
 
                         <div class="col-xs-12">
                             <span>SUA ÁREA</span><br/>
-                            <select name="stack">
+                            <select name="stack" required>
                                 <option value="">-- selecione --</option>
                                 <option value="PROGRAMAÇÃO">PROGRAMAÇÃO</option>
                                 <option value="DESIGN">DESIGN</option>
