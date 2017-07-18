@@ -9,7 +9,8 @@ class Leads extends Model
     protected $fillable = array(
         "name",
         "email",
-        "ip_address",
+        "ipv4_address",
+        "ipv6_address",
         "stack"
     );
 }

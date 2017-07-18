@@ -36,7 +36,7 @@
             @if (!Auth::guest())
             <ul class="nav navbar-nav" style="margin-left: 30px; margin-top: 2px;">
                 <li><a href="/admin">Posts</a></li>
-                <!--<li><a href="/leads">Leads</a></li>-->
+                <li><a href="/admin/leads">Leads</a></li>
             </ul>
             @endif
             <ul class="nav navbar-nav navbar-right">
