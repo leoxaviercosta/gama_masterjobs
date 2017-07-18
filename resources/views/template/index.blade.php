@@ -288,8 +288,7 @@
                         <img src="assets/img/logo-gama.png" class="logo">
                     </div>
                     <div class="col-xs-12">
-                        O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais
-                        de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro? <b>Nós queremos ajudar você!</b>
+                        O blog masterjobs e Gama Academy ajudam centenas de profissionais transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Deseja se tornar um profissional do futuro? <b>Nós queremos ajudar você!</b>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-lg-4 box-category">

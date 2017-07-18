@@ -59,7 +59,7 @@
                         </li>                        
                         <li><a id="contato" href="#contato">CONTATO</a></li>
                         <li>
-                            <button class="btn btn-want-upgrade" onclick="window.location = '/'">CONHEÇA GAMA ACADEMY</button>
+                            <button class="btn btn-know-gama" onclick="window.location = '/'">CONHEÇA GAMA ACADEMY</button>
                         </li>
                     </ul>
                 </div>
@@ -167,8 +167,7 @@
                         <img src="assets/img/logo-gama.png">
                     </div>
                     <div class="col-xs-12">
-                        O blog MasterTech e a Gama Academy ajudam centenas de profissionais a transformarem seus talentos em oportunidades reais
-                        de trabalho em startups de todo o Brasil. Quer ajuda para se tornar um profissional do futuro? <b>Nós queremos ajudar você!</b>
+                        O blog masterjobs e Gama Academy ajudam centenas de profissionais transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Deseja se tornar um profissional do futuro? <b>Nós queremos ajudar você!</b>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-lg-4 box-category">
@@ -188,7 +187,6 @@
                             Materiais do Gama
                         </div>
                         <ul>
-                            <li><a>Ebooks</a></li>
                             <li><a>Artigos Especializados</a></li>
                         </ul>
                     </div>

@@ -145,6 +145,10 @@ header .menu .links .active:before {
     transition: width 0.8s ease-in-out;
 }
 
+header .menu .btn-know-gama {
+    font-size: 12px
+}
+
 header .menu .btn-want-upgrade {
     font-size: 12px
 }

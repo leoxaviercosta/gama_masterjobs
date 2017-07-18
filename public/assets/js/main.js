@@ -41,10 +41,10 @@ $("#apply-subscribe").click(function () {
 });
 
 $(".btn-want-upgrade").click(function () {
- $('html, body').animate({
- scrollTop: $("footer form").offset().top
- }, 1000);
- });
+    $('html, body').animate({
+        scrollTop: $("footer form").offset().top
+    }, 1000);
+});
 
 /*$("#subscribe").submit(function (e) {
  e.preventDefault();
@@ -67,8 +67,8 @@ $(window).scroll(function (event) {
 });
 
 $('#time-remaining').countdown('2017/07/22', function (event) {
- $(this).html(event.strftime('%D DIAS %H:%M:%S'));
- });
+    $(this).html(event.strftime('%D DIAS %H:%M:%S'));
+});
 
 $(window).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
