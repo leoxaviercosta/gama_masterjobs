@@ -56,12 +56,10 @@
                                 <li><a href="#">Vendas</a></li>
                                 <li><a href="#">Marketing</a></li>
                             </ul>
-                        </li>
-                        <!--<li><a id="depoimentos" href="#depoimentos">CATEGORIAS</a></li>-->
-                        <li><a>MATERIAIS GRATUITOS</a></li>
+                        </li>                        
                         <li><a id="contato" href="#contato">CONTATO</a></li>
                         <li>
-                            <button class="btn btn-want-upgrade" onclick="$('#myModal').modal('show')">QUERO UM UPGRADE NA CARREIRA</button>
+                            <button class="btn btn-want-upgrade" onclick="window.location = '/'">CONHEÇA GAMA ACADEMY</button>
                         </li>
                     </ul>
                 </div>
@@ -222,12 +220,27 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">PREENCHA OS CAMPOS ABAIXO E FAÇA SUA INSCRIÇÃO</h4>
                 </div>
-                <div class="modal-body">
-                    <span>NOME COMPLETO</span><br/>
-                    <input type="text" placeholder="Exemplo: Marcos Rafael Soares"><br/>
-                    <span>EMAIL</span><br/>
-                    <input type="email" placeholder="Exemplo: marcos@gmail.com"><br/>
+                <div class="modal-body row">
+                    <div class="col-xs-12">
+                        <span>NOME COMPLETO</span><br/>
+                        <input type="text" placeholder="Informe seu nome"><br/>
+                    </div>
 
+                    <div class="col-xs-12">
+                        <span>EMAIL</span><br/>
+                        <input type="email" placeholder="Informe seu email"><br/>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <span>SUA ÁREA</span><br/>
+                        <select>
+                            <option value="">-- ESCOLHA SUA ÁREA--</option>
+                            <option value="PROGRAMAÇÃO">PROGRAMAÇÃO</option>
+                            <option value="DESIGN">DESIGN</option>
+                            <option value="VENDAS">VENDAS</option>
+                            <option value="MARKETING">MARKETING</option>
+                        </select><br/>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button class="btn-flat">FAZER INSCRIÇÃO</button>

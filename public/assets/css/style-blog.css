@@ -30,6 +30,13 @@ a:active {
     width: 100%;
     background: #fff;
     color: #e91d64;
+    transition: all .2s ease-out;
+}
+
+.btn-flat:hover {
+    color: #fff;
+    background: #e91d64;
+    transition: all .2s ease-out;
 }
 
 .btn {
@@ -441,20 +448,41 @@ footer .copyright {
 .mj-blog-pagination .pagination > li > a {
     color: #1af2a0;
 }
+
 #form-apply-inscription {
     text-align: center;
+   
+}
+
+#form-apply-inscription .modal-body div {
+     padding-bottom: 20px;
 }
 
 #form-apply-inscription span {
     color: #e91d64;
     font-weight: bold;
 }
+
 #form-apply-inscription input {
     border: 0px;
     padding: 10px;
     font-size: 15px;
-    width: 50%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
+    border-bottom: 1px solid #e91d64;
+}
+
+#form-apply-inscription select {
+    border: 0px;
+    padding: 10px;
+    font-size: 15px;
+    width: 70%;
+    text-align: left;
+    border-bottom: 1px solid #e91d64;
+}
+
+#form-apply-inscription select option {
+    color: #e91d64;
 }
 
 #form-apply-inscription .close{
@@ -464,40 +492,6 @@ footer .copyright {
 #form-apply-inscription .close span {
     color: #fff;
 }
-
-
-/*.links
-{
-	margin-top:15px
-}
-
-.links ul
-{
-	list-style:none;
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
-}
-.links ul a
-{
-	display:block;
-	color:#333;
-	text-decoration:none;
-	font-weight:700;
-	font-size:12px;
-	line-height:32px;
-	padding:0 15px;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
-}
-
-.linksul li
-{
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
-}*/
 
 .links ul ul
 {
