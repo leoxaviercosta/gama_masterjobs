@@ -16,4 +16,9 @@ class PostsController extends Controller
         $posts = \App\Post::orderBy('created_at', 'desc')->paginate(5);
         return view('posts.index', compact('posts'));
     }
+
+    public function postsFilter($id) {
+        $posts = \App\Post::find($id)->paginate(5);
+        return view('posts.index', compact('posts'));
+    }
 }

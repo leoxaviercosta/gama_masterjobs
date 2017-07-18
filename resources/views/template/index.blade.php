@@ -90,8 +90,9 @@
                 <br/>NO MERCADO DIGITAL!
             </h1>
             <div class="sub-title">
-                Em parceria com a <b>GAMA ACADEMY</b> estamos realizando a pré-inscrição
-                <br/>para os próximos eventos do programa <b>GAMA EXPERIENCE</b>!
+                Em parceria com a <b>GAMA ACADEMY</b> estamos realizando pré-inscrições para os
+                <br/>próximos programas do <b>GAMA EXPERIENCE</b> que acontecerão nas cidades de
+                <br/>Belo Horizonte, São Paulo, Rio de Janeiro e Florianópolis!
                 <br/>Não perca tempo. <b>FAÇA JÁ SUA PRÉ-INSCRIÇÃO!</b>
             </div>
             <!--<div class="triangles">
@@ -261,7 +262,7 @@
         <div class="newsletter">
             <div class="container">
                 <div class="title">
-                    Quer receber mais conteúdos brilhantes como esses?
+                    NÃO PERCA TEMPO E FAÇA SUA PRÉ-INSCRIÇÃO
                 </div>
                 <div class="sub-title">
                     Cadastre-se para receber os nosso conteúdos por email e seja um membro da Comunidade Gama Experience!

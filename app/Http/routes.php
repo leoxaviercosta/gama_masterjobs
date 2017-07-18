@@ -27,12 +27,14 @@ Route::controllers([
 
 Route::get('/', ['as' => 'home', 'uses' => 'PostsController@index']);
 Route::get('blog', ['as' => 'blog', 'uses' => 'PostsController@posts']);
+Route::get('blog/{id}', ['as' => 'blogfilter', 'uses' => 'PostsController@postsFilter']);
 Route::post('register', ['as' => 'register', 'uses' => 'RegisterController@register']);
 Route::post('comment', ['as' => 'comment', 'uses' => 'RegisterController@comment']);
+Route::get('quemsomos', ['as' => 'quemsomos', 'uses' => 'PageController@quemsomos']);
 
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('', ['as' => 'admin.posts.index', 'uses' => 'PostAdminController@index']);
-    Route::get('', ['as' => 'admin.leads', 'uses' => 'LeadsController@index']);
+    Route::get('leads', ['as' => 'admin.leads', 'uses' => 'LeadsController@index']);
     Route::group(['prefix' => 'posts'], function() {
         Route::get('create', ['as' => 'admin.posts.create', 'uses' => 'PostAdminController@create']);
         Route::post('store', ['as' => 'admin.posts.store', 'uses' => 'PostAdminController@store']); 

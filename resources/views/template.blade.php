@@ -29,14 +29,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><img src="{{ asset('assets/img/logo.png') }}" width="200px"></a>
+            <a class="navbar-brand" style="margin-top: 3px;" href="/"><img src="{{ asset('assets/img/logo.png') }}" width="200px"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             @if (!Auth::guest())
             <ul class="nav navbar-nav" style="margin-left: 30px; margin-top: 2px;">
                 <li><a href="/admin">Posts</a></li>
-                <li><a href="/leads">Leads</a></li>
+                <!--<li><a href="/leads">Leads</a></li>-->
             </ul>
             @endif
             <ul class="nav navbar-nav navbar-right">
