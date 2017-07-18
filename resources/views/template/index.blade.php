@@ -40,7 +40,7 @@
         <div class="menu">
             <div class="container">
                 <div class="logo">
-                    <img src="./assets/img/logo-tech-white.png">
+                    <a href="/" alt="MasterJobs"><img src="assets/img/logo-tech-white.png"></a>
                 </div>
                 <div class="links hidden-xs hidden-sm">
                     <ul>
@@ -95,9 +95,11 @@
                 <br/>Belo Horizonte, São Paulo, Rio de Janeiro e Florianópolis!
                 <br/>Não perca tempo. <b>FAÇA JÁ SUA PRÉ-INSCRIÇÃO!</b>
             </div>
-            <!--<div class="triangles">
-                ▼▼▼
-            </div>-->
+            <div style="padding: 10px;">
+                <span style="font-size: 18px;">
+                    <span style="font-size: 22px;color: #06fa9f;"><b>8 EM CADA 10</b></span> 
+                participantes são <span style="font-size: 22px;color: #06fa9f;"><b>CONTRATADOS</b></span> ao final do programa!</span>
+            </div>
 
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-lg-6 stack">

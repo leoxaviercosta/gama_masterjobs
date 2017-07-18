@@ -39,7 +39,7 @@
         <div class="menu">
             <div class="container">
                 <div class="logo">
-                    <img src="assets/img/logo-tech-white.png">
+                    <a href="/blog" alt="MasterJobs"><img src="assets/img/logo-tech-white.png"></a>
                 </div>
                 <div class="hidden-md hidden-lg">
                     <button type="button" onclick="openNav()" class="btn btn-default btn-sm">
@@ -59,8 +59,8 @@
                             </ul>
                         </li>                        
                         <li><a id="contato" href="#contato">CONTATO</a></li>
-                        <li style="padding-left: 155px;">
-                            <button class="btn-green btn-know-gama" onclick="window.location = '/'">CONHEÇA GAMA ACADEMY</button>
+                        <li style="padding-left: 140px;">
+                            <button class="btn-green btn-know-gama" onclick="window.location = '/'">CONHEÇA O GAMA EXPERIENCE</button>
                         </li>
                     </ul>
                 </div>
@@ -205,6 +205,9 @@
     <!-- SIDENAV -->
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <center>
+            <button class="btn-green btn-know-gama" style="margin: 20px;font-size: 15px;" onclick="window.location = '/'">CONHEÇA O<br/>GAMA EXPERIENCE</button>
+        </center>
         <a href="#">Programação</a>
         <a href="#">Design</a>
         <a href="#">Vendas</a>
