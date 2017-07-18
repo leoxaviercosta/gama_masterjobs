@@ -40,7 +40,7 @@
         <div class="menu">
             <div class="container">
                 <div class="logo">
-                    <img src="assets/img/logo-tech-white.png">
+                    <img src="assets/img/logo.svg">
                 </div>
                 <div class="links hidden-xs hidden-sm">
                     <ul>
