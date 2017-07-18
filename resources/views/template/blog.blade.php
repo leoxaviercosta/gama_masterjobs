@@ -85,7 +85,8 @@
         <br/><br/>
     </header>
     <br/>
-    <div class="row" style="margin: 0 auto; max-width: 1000px; width: 100%;padding: 20px 0 30px 0;" data-spy="scroll" data-target=".box-work-dream" data-offset="0">
+    <!-- data-spy="scroll" data-target=".box-work-dream" data-offset="0" -->
+    <div class="row" style="margin: 0 auto; max-width: 1000px; width: 100%;padding: 20px 0 30px 0;" >
         <div class="col-xs-12 col-sm-8 col-lg-8">
             @foreach($posts as $post)
                 <div class="col-xs-12 mj-blog">
@@ -114,8 +115,9 @@
             </div>
         </div>
 
-        <div class="col-sm-4 col-lg-4 hidden-xs scrollspy" >
-            <div style="width:333.3333px;top: 80px;" data-spy="affix" data-offset-top="0">
+        <div class="col-sm-4 col-lg-4 hidden-xs" >
+            <!-- style="width:333.3333px;top: 80px;" data-spy="affix" data-offset-top="0" -->
+            <div id="box-dream" style="position:fixed;width:333.3333px; z-index: -1;">
                 <div class="box-work-dream">
                     <div class="title">
                         QUER O EMPREGO DOS SONHOS EM UMA DAS MAIORES STARTUPS DO PAÍS?
@@ -137,7 +139,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="z-index: 1;">
         <div class="newsletter">
             <div class="container">
                 <div class="title">

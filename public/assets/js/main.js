@@ -119,3 +119,16 @@ $(window).resize(function () {
 
     // Kick off one resize to fix all videos on page load
 }).resize();
+
+var el = $('#box-dream');
+var pos = el.position().top;
+
+var posFooter = $("footer").position().top
+
+$(window).scroll(function () {
+    if ($(this).scrollTop() >= 250) {
+        el.css('top', '90px');        
+    } else {
+       el.css('top', '270px');
+    }
+});

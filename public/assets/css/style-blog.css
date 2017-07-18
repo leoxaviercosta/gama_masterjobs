@@ -278,6 +278,10 @@ header .count-remaining .remaining div {
     text-align: left;
 }
 
+footer {
+    background-color: #fff;
+}
+
 footer .newsletter{
     bottom: 0;
     width: 100%;
