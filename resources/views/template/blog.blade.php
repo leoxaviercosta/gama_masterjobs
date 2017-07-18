@@ -85,7 +85,7 @@
         <br/><br/>
     </header>
     <br/>
-    <div class="row" style="margin: 0 auto; max-width: 1000px; width: 100%;padding: 20px 0 30px 0;">
+    <div class="row" style="margin: 0 auto; max-width: 1000px; width: 100%;padding: 20px 0 30px 0;" data-spy="scroll" data-target=".box-work-dream" data-offset="0">
         <div class="col-xs-12 col-sm-8 col-lg-8">
             @foreach($posts as $post)
                 <div class="col-xs-12 mj-blog">
@@ -114,26 +114,27 @@
             </div>
         </div>
 
-        <div class="col-sm-4 col-lg-4 hidden-xs">
-            <div class="box-work-dream">
-                <div class="title">
-                    QUER O EMPREGO DOS SONHOS EM UMA DAS MAIORES STARTUPS DO PAÍS?
+        <div class="col-sm-4 col-lg-4 hidden-xs scrollspy" >
+            <div style="width:333.3333px;top: 80px;" data-spy="affix" data-offset-top="0">
+                <div class="box-work-dream">
+                    <div class="title">
+                        QUER O EMPREGO DOS SONHOS EM UMA DAS MAIORES STARTUPS DO PAÍS?
+                    </div>
+                    <span style="color: #fff;font-weight: bold;font-size: 15px;">CONHEÇA A</span><br/>
+                    <span style="color: #06fa9f;font-weight: bold;font-size: 28px;">GAMA EXPERIENCE</span>
                 </div>
-                <span style="color: #fff;font-weight: bold;font-size: 15px;">CONHEÇA A</span><br/>
-                <span style="color: #06fa9f;font-weight: bold;font-size: 28px;">GAMA EXPERIENCE</span>
-            </div>
-            <div class="box-next-editions">
-                <div class="title">PRÓXIMOS PROGRAMAS:</div>
-                <ul>
-                    <li>SÃO PAULO</li>
-                    <li>RIO DE JANEIRO</li>
-                    <li>BELO HORIZONTE</li>
-                    <li>FLORIANÓPOLIS</li>
-                </ul>
-                <button class="btn" onclick="$('#myModal').modal('show')">PRÉ-INSCRIÇÃO GRATUITA</button>
+                <div class="box-next-editions">
+                    <div class="title">PRÓXIMOS PROGRAMAS:</div>
+                    <ul>
+                        <li>SÃO PAULO</li>
+                        <li>RIO DE JANEIRO</li>
+                        <li>BELO HORIZONTE</li>
+                        <li>FLORIANÓPOLIS</li>
+                    </ul>
+                    <button class="btn" onclick="$('#myModal').modal('show')">PRÉ-INSCRIÇÃO GRATUITA</button>
+                </div>
             </div>
         </div>
-
     </div>
 
     <footer>
