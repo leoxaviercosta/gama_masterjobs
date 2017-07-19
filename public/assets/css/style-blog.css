@@ -423,6 +423,13 @@ footer .copyright {
     padding: 20px;
 }
 
+footer .container .btn {
+    border-radius: 0;
+    box-shadow: 0px 0px;
+    width: 100%;
+}
+
+
 .pallet-colors {
     color: #7ac043; /*GAMA*/
     color: #1af2a0; /*SOBRE O HEADER*/

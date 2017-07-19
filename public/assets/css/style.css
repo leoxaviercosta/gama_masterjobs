@@ -503,6 +503,50 @@ footer .sub-footer img{
     width: 100%;
 }
 
+#form-apply-inscription {
+    text-align: center;
+   
+}
+
+#form-apply-inscription .modal-body div {
+     padding-bottom: 20px;
+}
+
+#form-apply-inscription span {
+    color: #e91d64;
+    font-weight: bold;
+}
+
+#form-apply-inscription input {
+    border: 0px;
+    padding: 10px;
+    font-size: 15px;
+    width: 70%;
+    text-align: left;
+    border-bottom: 1px solid #e91d64;
+}
+
+#form-apply-inscription select {
+    border: 0px;
+    padding: 10px;
+    font-size: 15px;
+    width: 70%;
+    text-align: left;
+    border-bottom: 1px solid #e91d64;
+}
+
+#form-apply-inscription select option {
+    color: #e91d64;
+}
+
+#form-apply-inscription .close{
+    opacity: 1.0;
+
+}
+#form-apply-inscription .close span {
+    color: #fff;
+}
+
 footer .copyright {
     border-top: 1px solid #cccccc;
     text-align: center;

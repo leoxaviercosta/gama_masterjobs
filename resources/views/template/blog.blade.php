@@ -144,10 +144,10 @@
         <div class="newsletter">
             <div class="container">
                 <div class="title">
-                    NÃO PERCA TEMPO E FAÇA SUA PRÉ-INSCRIÇÃO
+                    AUMENTE SEU CONHECIMENTO
                 </div>
                 <div class="sub-title">
-                    Cadastre-se para receber os nossos conteúdos por email e seja um membro da Comunidade Gama Experience!
+                    Cadastre-se para receber os melhores conteúdos sobre marketing, design, programação e vendas
                 </div>
                 <div class="form row">
                     {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
