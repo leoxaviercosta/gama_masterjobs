@@ -46,8 +46,8 @@
                     <ul>
                         <!--<li><a id="inscrevase" href="#upgradecarreira" class="active">UPGRADE DE CARREIRA</a></li>-->
                         <li><a id="depoimentos" href="#depoimentos">DEPOIMENTOS</a></li>
-                        <li><a id="depoimentos" href="/blog">BLOG</a></li>
-                        <li><a id="contato" href="#contato">CONTATO</a></li>
+                        <li><a id="depoimentos" href="/quemsomos">QUEM SOMOS</a></li>
+                        <li><a id="contato" href="/contato">CONTATO</a></li>
                         <li style="padding-left: 136px;">
                             <button class="btn btn-want-upgrade" onclick="$('#myModal').modal('show')">QUERO UM UPGRADE NA CARREIRA</button>
                         </li>
