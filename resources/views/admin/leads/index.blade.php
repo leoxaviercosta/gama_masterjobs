@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('content')
-    <h1>Leads ({{ $leads->count() }} de 1000 convertidos)</h1>
+    <h1>Leads ({{ $leads->total() }} de 1000 convertidos)</h1>
 
     <table class="table">
         <tr>
