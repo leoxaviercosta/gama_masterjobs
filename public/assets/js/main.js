@@ -151,3 +151,10 @@ $("#subscribe-full").submit(function (e) {
         dataType: 'json'
     });
 });
+
+// request location ip address
+function getLocationIP($ipdaddress) {
+    $.get("https://ipinfo.io/" + $ipdaddress, function(response) {
+        return response.city + ' - ' + response.region;
+    }, "jsonp");
+}
