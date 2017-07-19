@@ -86,7 +86,6 @@
         <br/><br/>
     </header>
     <br/>
-    <!-- data-spy="scroll" data-target=".box-work-dream" data-offset="0" -->
     <div class="row" style="margin: 0 auto; max-width: 1000px; width: 100%;padding: 20px 0 30px 0;">
         <div class="col-xs-12 col-sm-8 col-lg-8">
             <div class="col-xs-12 mj-blog">
@@ -99,29 +98,29 @@
                 </div>
 
                 <div class="mj-blog-sub-content">
-                    <form>
-                        <div class="row" id="form-contact">
+                    {!! Form::open(['route'=>'contact', 'method'=>'post', 'id' => 'form-contact']) !!}
+                        <div class="row" >
                             <div class="col-xm-12">
                                 <span>NOME</span>
-                                <input type="text" name="name">
+                                {!! Form::text('name', null, ['required' => 'required']) !!}
                             </div>
                             <div class="col-xm-12">
                                 <span>EMAIL</span>
-                                <input type="email" name="email">
+                                {!! Form::email('email', null, ['required' => 'required']) !!}
                             </div>
                             <div class="col-xm-12">
                                 <span>ASSUNTO</span>
-                                <input type="text" name="subject">
+                                {!! Form::text('subject', null, ['required' => 'required']) !!}
                             </div>
                             <div class="col-xm-12">
                                 <span>MENSAGEM</span>
-                                <textarea></textarea>
+                                {!! Form::textarea('msg', null, ['required' => 'required']) !!}
                             </div>
                             <div class="col-xm-12">
-                                <button class="btn-flat-green">ENVIAR</button>
+                                {!! Form::button('ENVIAR', ['class'=>'btn-flat-green', 'type' => 'submit']) !!}
                             </div>
                         </div>
-                    </form>
+                    {!! Form::close() !!}
                 </div>
             </div>
         </div>

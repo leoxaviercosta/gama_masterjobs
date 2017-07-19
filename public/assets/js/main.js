@@ -123,6 +123,28 @@ $("#subscribe-full").submit(function (e) {
     });
 });
 
+$("#form-contact").submit(function (e) {
+    e.preventDefault();
+    var data = {
+        _token: $("#form-contact input[name=_token]").val(),
+        name: $("#form-contact input[name=name]").val(),
+        email: $("#form-contact input[name=email]").val(),
+        subject: $("#form-contact input[name=subject]").val(),
+        msg: $("#form-contact textarea[name=msg]").val()
+    };
+    $.ajax({
+        type: "POST",
+        url: '/contact',
+        data: data,
+        success: function (response) {
+            $('#modalMessage').modal('show');
+            $("#message-success").html("<center>" + response.message + "</center>");
+            $('#myModal').modal('hide');
+        },
+        dataType: 'json'
+    });
+});
+
 // request location ip address
 function getLocationIP($ipdaddress) {
     $.get("https://ipinfo.io/" + $ipdaddress, function (response) {
