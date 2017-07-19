@@ -34,13 +34,12 @@ class RegisterController extends Controller
             $this->leads->create($data);
             try {
                 if (empty($data['stack'])){
-
+                    return $this->getMessageSuccess($data);
                 }else {
                     if ($this->html_email($data)){
                         return $this->getMessageSuccess($data);
                     }
                 }
-                
             } catch (\Exception $ex){
                 return $this->getMessageSuccess($data);
             }    
@@ -77,7 +76,6 @@ class RegisterController extends Controller
     }
 
     public function getLocationIP($ipaddress) {
-        $ipaddress = '187.94.99.194';
         $json = file_get_contents("https://ipinfo.io/{$ipaddress}/json");
         $details = json_decode($json, true);
         if (is_array($details)) {
