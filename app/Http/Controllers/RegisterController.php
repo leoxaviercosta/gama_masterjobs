@@ -22,10 +22,10 @@ class RegisterController extends Controller
         config(['app.timezone' => 'America/Sao_Paulo']);
         ini_set('xdebug.max_nesting_level', 500);
 
-        $ipv4_address = gethostbyname(gethostbyaddr($_SERVER['REMOTE_ADDR']));
         $data = $request->all();
-        $data['ipv4_address'] = $ipv4_address;
-        $data['ipv6_address'] = $request->ip();
+        $data['ipv4_address'] = $request->ip();
+        $data['ip_location']  = $this->getLocationIP($request->ip());
+
         $lead = null;
         $lead = Leads::where('email', $data['email'])->first();
         if ($lead){
@@ -67,17 +67,6 @@ class RegisterController extends Controller
         }
     }
 
-    public function basic_email() {
-        $data = array('name'=>"Virat Gandhi", 'email'=>"leoxaviercosta@gmail.com") ;
-
-        Mail::send(['text'=>'mail'], $data, function($message) {
-            $message->to('abc@gmail.com', 'Tutorials Point') ->subject
-            ('Laravel Basic Testing Mail') ;
-            $message->from('xyz@gmail.com','Virat Gandhi') ;
-        });
-        echo "Basic Email Sent. Check your inbox.";
-    }
-
     public function html_email($data) {
         Mail::send('template.mail', $data, function($message) use ($data) {
             $message->to($data['email'], $data['name'])
@@ -87,15 +76,12 @@ class RegisterController extends Controller
         return true;
     }
 
-    public function attachment_email() {
-        $data = array('name'=>"Virat Gandhi") ;
-        Mail::send('mail', $data, function($message) {
-            $message->to('abc@gmail.com', 'Tutorials Point') ->subject
-            ('Laravel Testing Mail with Attachment') ;
-            $message->attach('C:\laravel-master\laravel\public\uploads\image.png') ;
-            $message->attach('C:\laravel-master\laravel\public\uploads\test.txt') ;
-            $message->from('xyz@gmail.com','Virat Gandhi') ;
-        });
-        echo "Email Sent with attachment. Check your inbox.";
+    public function getLocationIP($ipaddress) {
+        $ipaddress = '187.94.99.194';
+        $json = file_get_contents("https://ipinfo.io/{$ipaddress}/json");
+        $details = json_decode($json, true);
+        if (is_array($details)) {
+            return $details['city'] . ' - ' . $details['region'];
+        }
     }
 }

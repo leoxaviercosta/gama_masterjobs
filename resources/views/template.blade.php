@@ -64,6 +64,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="{{ asset('assets/js/bootstrap-tagsinput.js') }}"></script>
 <script src="{{ asset('libs/tinymce/tinymce.min.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 <script>tinymce.init({
     selector:'textarea',
     menubar: false,

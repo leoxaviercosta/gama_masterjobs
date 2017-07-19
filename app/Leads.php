@@ -11,6 +11,7 @@ class Leads extends Model
         "email",
         "ipv4_address",
         "ipv6_address",
+        "ip_location",
         "stack"
     );
 }
