@@ -130,3 +130,6 @@ function getLocationIP($ipdaddress) {
     }, "jsonp");
 }
 
+function setTitle(text) {
+    document.title = text;
+}

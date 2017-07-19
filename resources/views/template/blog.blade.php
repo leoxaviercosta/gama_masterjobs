@@ -93,8 +93,11 @@
             @foreach($posts as $post)
                 <div class="col-xs-12 mj-blog">
                     <div class="mj-blog-title">
-                        <div class="mj-blog-title-description">
+                        <div class="mj-blog-title-description" onload="document.title='teste'">
                             {{ $post->title }}
+                            <script type="text/javascript">
+                               document.title = '{{ $post->title }}';
+                            </script>
                         </div>
                         <div class="mj-blog-title-sub-description">
                             <b>Postado por:</b> <span id="mj-blog-post-author">{{ $post->operator }}</span> |
