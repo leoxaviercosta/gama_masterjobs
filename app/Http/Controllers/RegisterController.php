@@ -81,7 +81,7 @@ class RegisterController extends Controller
     public function html_email($data) {
         Mail::send('template.mail', $data, function($message) use ($data) {
             $message->to($data['email'], $data['name'])
-                    ->subject('MasterJobs - Gama Experience') ;
+                    ->subject('Masterjobs - Confirmação de cadastro') ;
             $message->from('masterjobs.tech@gmail.com', 'MasterJobs') ;
         });
         return true;
