@@ -26,8 +26,8 @@ class RegisterController extends Controller
         $data = $request->all();
         $data['ipv4_address'] = $ipv4_address;
         $data['ipv6_address'] = $request->ip();
-
-        $lead = $this->leads::where('email', $data['email'])->first();
+        $lead = null;
+        //$lead = $this->leads::where('email', $data['email'])->first();
         if ($lead){
             return $this->getMessageLeadError($lead);
         } else {
