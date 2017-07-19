@@ -48,7 +48,7 @@
                 </div>
                 <div class="links hidden-xs hidden-sm">
                     <ul>
-                        <li><a id="blog" href="/blog">BLOG</a></li>
+                        <li><a id="blog" href="/quemsomos">QUEM SOMOS</a></li>
                         <li>
                             <a href="#">CATEGORIAS</a>
                             <ul>

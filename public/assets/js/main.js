@@ -22,24 +22,12 @@ $("#apply-subscribe").click(function () {
     }, 1000);
 });
 
-/*$("#subscribe").submit(function (e) {
- e.preventDefault();
- var urlApi = "http://urldaapi";
- var data = { 'email': $("#subscribe #email").val() };
- $.post(urlApi, data, function (data) {
- //$(".result").html(data);
- });
- });*/
-
 $(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-
-    if (scroll > 200) {
+    if ($(window).scrollTop() > 200) {
         $("header .menu").css('background-color', 'rgba(0, 0, 0, 0.8');
     } else {
         $("header .menu").css('background-color', 'rgba(0, 0, 0, 0.3');
     }
-    // Do something
 });
 
 $('#time-remaining').countdown('2017/07/22', function (event) {
@@ -50,54 +38,37 @@ $(window).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
 
-/* Set the width of the side navigation to 250px */
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
 
-/* Set the width of the side navigation to 0 */
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
-// Find all YouTube videos
-var $allVideos = $("iframe[src^='//www.youtube.com']"),
+var $allVideos = $("iframe[src^='//www.youtube.com']");
+var $fluidEl = $(".mj-blog-sub-content");
 
-    // The element that is fluid width
-    $fluidEl = $(".mj-blog-sub-content");
-
-// Figure out and save aspect ratio for each video
 $allVideos.each(function () {
 
     $(this)
         .data('aspectRatio', this.height / this.width)
-
-        // and remove the hard coded width/height
         .removeAttr('height')
         .removeAttr('width');
 
 });
 
-// When the window is resized
 $(window).resize(function () {
 
     var newWidth = $fluidEl.width();
-
-    // Resize all videos according to their own aspect ratio
     $allVideos.each(function () {
-
         var $el = $(this);
-        $el
-            .width(newWidth)
-            .height(newWidth * $el.data('aspectRatio'));
-
+        $el.width(newWidth).height(newWidth * $el.data('aspectRatio'));
     });
-
-    // Kick off one resize to fix all videos on page load
 }).resize();
 
 var el = $('#box-dream');
-if (el && el.position()){
+if (el && el.position()) {
     var pos = el.position().top;
 }
 
@@ -124,7 +95,7 @@ $("#subscribe").submit(function (e) {
         data: data,
         success: function (response) {
             $('#modalMessage').modal('show');
-            $("#message-success").html("<center>"+response.message+"</center>");
+            $("#message-success").html("<center>" + response.message + "</center>");
         },
         dataType: 'json'
     });
@@ -145,7 +116,7 @@ $("#subscribe-full").submit(function (e) {
         data: data,
         success: function (response) {
             $('#modalMessage').modal('show');
-            $("#message-success").html("<center>"+response.message+"</center>");
+            $("#message-success").html("<center>" + response.message + "</center>");
             $('#myModal').modal('hide');
         },
         dataType: 'json'
@@ -154,7 +125,7 @@ $("#subscribe-full").submit(function (e) {
 
 // request location ip address
 function getLocationIP($ipdaddress) {
-    $.get("https://ipinfo.io/" + $ipdaddress, function(response) {
+    $.get("https://ipinfo.io/" + $ipdaddress, function (response) {
         return response.city + ' - ' + response.region;
     }, "jsonp");
 }
