@@ -96,6 +96,10 @@ $("#subscribe").submit(function (e) {
         success: function (response) {
             $('#modalMessage').modal('show');
             $("#message-success").html("<center>" + response.message + "</center>");
+            fbq('track', 'Lead', {
+               value: 0.01,
+               currency: 'BRL'
+            });
         },
         dataType: 'json'
     });
@@ -118,6 +122,10 @@ $("#subscribe-full").submit(function (e) {
             $('#modalMessage').modal('show');
             $("#message-success").html("<center>" + response.message + "</center>");
             $('#myModal').modal('hide');
+            fbq('track', 'Lead', {
+               value: 0.01,
+               currency: 'BRL'
+            });
         },
         dataType: 'json'
     });
