@@ -40,6 +40,24 @@ a:active {
     transition: all .2s ease-out;
 }
 
+.btn-flat-green {
+    border: 1px solid #54c000;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    background: #fff;
+    color: #54c000;
+    transition: all .2s ease-out;
+    white-space: normal;
+}
+
+.btn-flat-green:hover {
+    color: #fff;
+    background: #54c000;
+    transition: all .2s ease-out;
+}
+
 .btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -429,6 +447,40 @@ footer .container .btn {
     width: 100%;
 }
 
+#form-contact div {
+    padding: 10px;
+}
+
+#form-contact input {
+    border: 0px;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    padding: 10px;
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+    background: #d7edc5;
+    border-bottom: 1px solid #54c000;
+}
+
+#form-contact textarea {
+    border: 0px;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    padding: 10px;
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #54c000;
+    background: #d7edc5;
+}
+
+#form-contact span {
+    color: #54c000;
+    font-weight: bold;
+}
 
 .pallet-colors {
     color: #7ac043; /*GAMA*/
@@ -477,7 +529,7 @@ footer .container .btn {
 }
 .mj-blog .mj-blog-title {
     font-family: 'Montserrat', sans-serif;
-    border-left: 2px dashed #06fa9f;
+    border-left: 2px dashed #54c000;
 }
 
 .mj-blog .mj-blog-title-description {
@@ -493,7 +545,7 @@ footer .container .btn {
 
 .mj-blog .mj-blog-sub-content {
     padding: 20px 20px 15px 10px;
-    border-bottom: 2px dashed #06fa9f;
+    border-bottom: 2px dashed #54c000;
 }
 
 .mj-blog-pagination {
@@ -512,8 +564,7 @@ footer .container .btn {
 }
 
 #form-apply-inscription {
-    text-align: center;
-   
+    text-align: center;  
 }
 
 #form-apply-inscription .modal-body div {
@@ -529,16 +580,17 @@ footer .container .btn {
     border: 0px;
     padding: 10px;
     font-size: 15px;
-    width: 70%;
+    width: 100%;
     text-align: left;
     border-bottom: 1px solid #e91d64;
+    background: #ffdee9;
 }
 
 #form-apply-inscription select {
     border: 0px;
     padding: 10px;
     font-size: 15px;
-    width: 70%;
+    width: 100%;
     text-align: left;
     border-bottom: 1px solid #e91d64;
 }

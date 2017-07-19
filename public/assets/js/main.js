@@ -16,12 +16,6 @@ $("#depoimentos").click(function () {
     }, 1000);
 });
 
-$("#contato").click(function () {
-    $('html, body').animate({
-        scrollTop: $("footer form").offset().top
-    }, 1000);
-});
-
 $("#apply-subscribe").click(function () {
     $('html, body').animate({
         scrollTop: $("footer form").offset().top

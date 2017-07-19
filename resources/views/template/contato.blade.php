@@ -99,21 +99,25 @@
                 </div>
 
                 <div class="mj-blog-sub-content">
-                    <div class="row" id="form-contato">
+                    <div class="row" id="form-contact">
                         <div class="col-xm-12">
-                            <input type="text">
+                            <span>NOME</span>
+                            <input type="text" name="name">
                         </div>
                         <div class="col-xm-12">
-                            <input type="text">
+                            <span>EMAIL</span>
+                            <input type="email" name="email">
                         </div>
                         <div class="col-xm-12">
-                            <input type="text">
+                            <span>ASSUNTO</span>
+                            <input type="text" name="subject">
                         </div>
                         <div class="col-xm-12">
+                            <span>MENSAGEM</span>
                             <textarea></textarea>
                         </div>
                         <div class="col-xm-12">
-                            <button class="btn-flat">ENVIAR</button>
+                            <button class="btn-flat-green">ENVIAR</button>
                         </div>
                     </div>
                 </div>

@@ -58,7 +58,7 @@
                                 <li><a href="#">Marketing</a></li>
                             </ul>
                         </li>
-                        <li><a id="contato" href="#contato">CONTATO</a></li>
+                        <li><a id="contato" href="/contato">CONTATO</a></li>
                         <li style="padding-left: 140px;">
                             <button class="btn-green btn-know-gama" onclick="window.location = '/'">CONHEÇA O GAMA EXPERIENCE</button>
                         </li>
