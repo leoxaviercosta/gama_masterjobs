@@ -31,6 +31,7 @@ Route::get('blog/{id}', ['as' => 'blogfilter', 'uses' => 'PostsController@postsF
 Route::post('register', ['as' => 'register', 'uses' => 'RegisterController@register']);
 Route::post('comment', ['as' => 'comment', 'uses' => 'RegisterController@comment']);
 Route::get('quemsomos', ['as' => 'quemsomos', 'uses' => 'PageController@quemsomos']);
+Route::get('contato', ['as' => 'contato', 'uses' => 'PageController@contato']);
 
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('', ['as' => 'admin.posts.index', 'uses' => 'PostAdminController@index']);

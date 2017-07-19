@@ -10,4 +10,8 @@ class PageController extends Controller
     public function quemsomos() {
         return view('template.quemsomos');
     }
+
+    public function contato() {
+        return view('template.contato');
+    }
 }
