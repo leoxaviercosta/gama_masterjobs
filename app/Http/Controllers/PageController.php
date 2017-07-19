@@ -28,7 +28,7 @@ class PageController extends Controller
         });
 
         return response()->json(
-                    ['message' => 'Olá '. ucwords($lead->name) .', você já está na lista de pré-inscritos! Fique atento que enviaremos novidades em seu email e logo você receberá noticias sobre as próximas edições do programa.']);
+                    ['message' => 'Olá '. ucwords($data['name']) .', recebemos sua mensagem e em breve iremos respondê-lo!']);
         
     }
 }
