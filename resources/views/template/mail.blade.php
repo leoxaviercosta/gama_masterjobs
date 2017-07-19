@@ -48,15 +48,15 @@
         }
     </style>
     <div class="container">
-        <p>Olá,</p>
+        <p>Olá {{ $data['name'] }},</p>
 
-        <p>Parabéns! Sua pré-inscrição foi realizada com sucesso!</p>
+        <p>Parabéns! Seu cadastro foi realizado com sucesso!</p>
         
-        <p>Agradecemos seu interesse em participar do Gama Experience, o maior programa de seleção e capacitação de talentos do mercado digital. </p>
+        <p>Agradecemos seu interesse em participar do Gama Experience, o maior programa de seleção e capacitação de talentos do mercado digital.</p>
         
         <p>Quanto atingirmos 2.000 cadastros, encerraremos a pré-inscrição, mesmo antes de sexta-feira, dia 21/07. Caso tenha algum amigo para indicar, corra para avisá-lo - costumamos fechar as inscrições em poucos dias!</br>
         
-        <p>Em breve, entraremos em contato com mais informações sobre o programa e as próximas etapas! </p>
+        <p>Quando abrirmos as inscrições oficiais para os programas, você será o primeiro(a) a saber!</p>
         
         <p>Abraços,<br/> 
         

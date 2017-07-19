@@ -33,9 +33,14 @@ class RegisterController extends Controller
         } else {
             $this->leads->create($data);
             try {
-                if ($this->html_email($data)){
-                    return $this->getMessageSuccess($data);
-                }                    
+                if (empty($data['stack'])){
+
+                }else {
+                    if ($this->html_email($data)){
+                        return $this->getMessageSuccess($data);
+                    }
+                }
+                
             } catch (\Exception $ex){
                 return $this->getMessageSuccess($data);
             }    
