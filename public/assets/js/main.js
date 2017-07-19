@@ -22,25 +22,7 @@ $("#contato").click(function () {
     }, 1000);
 });
 
-$("#subscribe-open").click(function () {
-    $('html, body').animate({
-        scrollTop: $("footer form").offset().top
-    }, 1000);
-});
-
-$("#want-work-startup").click(function () {
-    $('html, body').animate({
-        scrollTop: $("footer form").offset().top
-    }, 1000);
-});
-
 $("#apply-subscribe").click(function () {
-    $('html, body').animate({
-        scrollTop: $("footer form").offset().top
-    }, 1000);
-});
-
-$(".btn-want-upgrade").click(function () {
     $('html, body').animate({
         scrollTop: $("footer form").offset().top
     }, 1000);
