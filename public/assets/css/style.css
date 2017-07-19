@@ -535,3 +535,7 @@ footer .copyright {
         height: 424px;
     }
 }
+
+#jivo-iframe-container {
+    z-index: 9988;
+}
