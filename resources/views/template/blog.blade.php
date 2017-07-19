@@ -225,7 +225,7 @@
                     <h4 class="modal-title" id="myModalLabel">PREENCHA OS CAMPOS ABAIXO E FAÇA SUA INSCRIÇÃO</h4>
                 </div>
                 <div class="modal-body row">
-                    {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
+                    {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe-full']) !!}
                         <div class="col-xs-12">
                             <span>NOME COMPLETO</span><br/>
                             <!--<input type="text" placeholder="Informe seu nome"><br/>-->
@@ -258,10 +258,25 @@
         </div>
     </div>
 
+    <!-- MODAL MENSAGEM -->
+    <div class="modal fade" id="modalMessage" tabindex="-1" role="dialog" aria-labelledby="modalMessageLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" id="modal-message">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="modalMessageLabel">MENSAGEM</h4>
+                </div>
+                <div class="modal-body" id="message-success">
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="libs/jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="libs/jquery/jquery.countdown.min.js"></script>
     <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>   
 </body>
 
 </html>

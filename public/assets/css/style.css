@@ -47,6 +47,24 @@ a:active {
     transform: translateY(4px);
 }
 
+.btn-flat {
+    border: 1px solid #e91d64;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    background: #fff;
+    color: #e91d64;
+    transition: all .2s ease-out;
+    white-space: normal;
+}
+
+.btn-flat:hover {
+    color: #fff;
+    background: #e91d64;
+    transition: all .2s ease-out;
+}
+
 .btn-green {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -101,6 +119,28 @@ header .menu .container{
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+}
+
+.modal {
+    top: 140px;
+}
+
+.modal-header {
+    background: #e91d64;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#modal-message .modal-header {
+    background: #54c000;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#modal-message .modal-body {
+    padding: 20px;
 }
 
 @media screen and (min-width: 992px){

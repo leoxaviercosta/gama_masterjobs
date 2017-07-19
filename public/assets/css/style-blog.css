@@ -412,9 +412,21 @@ footer .copyright {
     text-align: center;
 }
 
+#modal-message .modal-header {
+    background: #54c000;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#modal-message .modal-body {
+    padding: 20px;
+}
+
 .pallet-colors {
     color: #7ac043; /*GAMA*/
     color: #1af2a0; /*SOBRE O HEADER*/
+    color: #e91d64;
 }
 
 /* MOBILE */

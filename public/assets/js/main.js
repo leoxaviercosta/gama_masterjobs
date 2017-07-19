@@ -121,14 +121,57 @@ $(window).resize(function () {
 }).resize();
 
 var el = $('#box-dream');
-var pos = el.position().top;
+if (el && el.position()){
+    var pos = el.position().top;
+}
 
 var posFooter = $("footer").position().top
 
 $(window).scroll(function () {
     if ($(this).scrollTop() >= 250) {
-        el.css('top', '90px');        
+        el.css('top', '90px');
     } else {
-       el.css('top', '270px');
+        el.css('top', '270px');
     }
+});
+
+$("#subscribe").submit(function (e) {
+    e.preventDefault();
+    var data = {
+        _token: $("#subscribe input[name=_token]").val(),
+        name: $("#subscribe input[name=name]").val(),
+        email: $("#subscribe input[name=email]").val()
+    };
+    $.ajax({
+        type: "POST",
+        url: '/register',
+        data: data,
+        success: function (response) {
+            $('#modalMessage').modal('show');
+            $("#message-success").html(response.message);
+        },
+        dataType: 'json'
+    });
+});
+
+
+$("#subscribe-full").submit(function (e) {
+    e.preventDefault();
+    var data = {
+        _token: $("#subscribe-full input[name=_token]").val(),
+        name: $("#subscribe-full input[name=name]").val(),
+        email: $("#subscribe-full input[name=email]").val(),
+        stack: $("#subscribe-full input[name=stack]").val(),
+    };
+    $.ajax({
+        type: "POST",
+        url: '/register',
+        data: data,
+        success: function (response) {
+            $('#modalMessage').modal('show');
+            $("#message-success").html(response.message);
+            $('#myModal').modal('hide');
+        },
+        dataType: 'json'
+    });
 });

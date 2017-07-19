@@ -27,9 +27,30 @@ class RegisterController extends Controller
         $data['ipv4_address'] = $ipv4_address;
         $data['ipv6_address'] = $request->ip();
 
-        $this->leads->create($data);
-        if ($this->html_email($data))
-            return redirect()->route('home');
+        $lead = $this->leads::where('email', $data['email'])->first();
+        if ($lead){
+            return response()->json(
+                [
+                    'message' => 'Olá '. ucwords($lead->name) .', você já está na lista de pré-inscritos! Fique atento que enviaremos novidades em seu email e logo você receberá noticias sobre as próximas edições do programa.'
+                ]
+            );
+        } else {
+            $this->leads->create($data);
+            try {
+                if ($this->html_email($data)){
+                    return response()->json(
+                        [
+                            'message' => 'Parabéns '. ucwords($data['name']) .'! Seu cadastro foi realizado com sucesso! Quando abrirmos as inscrições oficiais para os programas, você será o primeiro (a) a saber!'
+                        ]);
+                }
+                    
+            } catch (\Exception $ex){
+                return response()->json(
+                    [
+                        'message' => 'Parabéns '. ucwords($data['name']) .'! Seu cadastro foi realizado com sucesso! Quando abrirmos as inscrições oficiais para os programas, você será o primeiro (a) a saber!'
+                    ]);
+            }    
+        }        
     }
 
     public function basic_email() {
