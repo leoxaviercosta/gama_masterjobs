@@ -148,7 +148,7 @@ $("#subscribe").submit(function (e) {
         data: data,
         success: function (response) {
             $('#modalMessage').modal('show');
-            $("#message-success").html(response.message);
+            $("#message-success").html("<center>"+response.message+"</center>");
         },
         dataType: 'json'
     });
@@ -161,7 +161,7 @@ $("#subscribe-full").submit(function (e) {
         _token: $("#subscribe-full input[name=_token]").val(),
         name: $("#subscribe-full input[name=name]").val(),
         email: $("#subscribe-full input[name=email]").val(),
-        stack: $("#subscribe-full input[name=stack]").val(),
+        stack: $("#subscribe-full select[name=stack]").val(),
     };
     $.ajax({
         type: "POST",
@@ -169,7 +169,7 @@ $("#subscribe-full").submit(function (e) {
         data: data,
         success: function (response) {
             $('#modalMessage').modal('show');
-            $("#message-success").html(response.message);
+            $("#message-success").html("<center>"+response.message+"</center>");
             $('#myModal').modal('hide');
         },
         dataType: 'json'

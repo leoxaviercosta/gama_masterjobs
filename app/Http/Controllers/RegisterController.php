@@ -29,28 +29,37 @@ class RegisterController extends Controller
 
         $lead = $this->leads::where('email', $data['email'])->first();
         if ($lead){
-            return response()->json(
-                [
-                    'message' => 'Olá '. ucwords($lead->name) .', você já está na lista de pré-inscritos! Fique atento que enviaremos novidades em seu email e logo você receberá noticias sobre as próximas edições do programa.'
-                ]
-            );
+            return $this->getMessageLeadError($lead);
         } else {
             $this->leads->create($data);
             try {
                 if ($this->html_email($data)){
-                    return response()->json(
-                        [
-                            'message' => 'Parabéns '. ucwords($data['name']) .'! Seu cadastro foi realizado com sucesso! Quando abrirmos as inscrições oficiais para os programas, você será o primeiro (a) a saber!'
-                        ]);
-                }
-                    
+                    return $this->getMessageSuccess($data);
+                }                    
             } catch (\Exception $ex){
-                return response()->json(
-                    [
-                        'message' => 'Parabéns '. ucwords($data['name']) .'! Seu cadastro foi realizado com sucesso! Quando abrirmos as inscrições oficiais para os programas, você será o primeiro (a) a saber!'
-                    ]);
+                return $this->getMessageSuccess($data);
             }    
         }        
+    }
+
+    public function getMessageSuccess($data){
+        if (empty($data['stack'])){
+              return response()->json(
+                    ['message' => 'Obrigado '. ucwords($data['name']) .' por se cadastrar em nossa newsletter.<br/>Acompanhe nosso conteúdo e se mantenha sempre atualizado!']);
+        } else {
+            return response()->json(
+                    ['message' => 'Parabéns '. ucwords($data['name']) .'! Seu cadastro foi realizado com sucesso! Quando abrirmos as inscrições oficiais para os programas, você será o primeiro (a) a saber!']);          
+        }
+    }
+
+    public function getMessageLeadError($lead){
+        if ($lead->stack){
+            return response()->json(
+                    ['message' => 'Olá '. ucwords($lead->name) .', você já está na lista de pré-inscritos! Fique atento que enviaremos novidades em seu email e logo você receberá noticias sobre as próximas edições do programa.']);
+        } else {
+            return response()->json(
+                    ['message' => 'Olá '. ucwords($lead->name) .'! Você já está cadastrado para receber nossas notícias e novidades.']);          
+        }
     }
 
     public function basic_email() {
