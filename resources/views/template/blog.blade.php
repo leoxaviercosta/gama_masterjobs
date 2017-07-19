@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mako">
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style-blog.css">
+    <link href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style-blog.css') }}" rel="stylesheet">
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -21,7 +21,7 @@
     <meta name="robots" content="index,follow" />
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/img/icon-green.ico">
+    <link rel="icon" href="{{ asset('assets/img/icon-green.ico') }}">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,7 +39,7 @@
         <div class="menu">
             <div class="container">
                 <div class="logo">
-                    <a href="/blog"><img src="assets/img/logo-tech-white.png"></a>
+                    <a href="/blog"><img src="{{ asset('assets/img/logo-tech-white.png') }}"></a>
                 </div>
                 <div class="hidden-md hidden-lg">
                     <button type="button" onclick="openNav()" class="btn btn-default btn-sm">
@@ -89,6 +89,7 @@
     <!-- data-spy="scroll" data-target=".box-work-dream" data-offset="0" -->
     <div class="row" style="margin: 0 auto; max-width: 1000px; width: 100%;padding: 20px 0 30px 0;" >
         <div class="col-xs-12 col-sm-8 col-lg-8">
+
             @foreach($posts as $post)
                 <div class="col-xs-12 mj-blog">
                     <div class="mj-blog-title">
@@ -112,7 +113,11 @@
             @endforeach
 
             <div class="col-xs-12 mj-blog-pagination">
-                {!! $posts->render() !!}
+                @if(is_object($posts))
+                    {!! $posts->render() !!}
+                @else
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                @endif
             </div>
         </div>
 
@@ -165,10 +170,10 @@
             <div class="row" style="margin-right: 0px;margin-left: 0px;">
                 <div class="col-xs-12 col-sm-8 col-lg-8 logo-master-gama">
                     <div class="col-xs-6">
-                        <img src="assets/img/logo.png" class="logo">
+                        <img src="{{ asset('assets/img/logo.png') }}" class="logo">
                     </div>
                     <div class="col-xs-6" class="logo">
-                        <img src="assets/img/logo-gama.png">
+                        <img src="{{ asset('assets/img/logo-gama.png') }}">
                     </div>
                     <div class="col-xs-12">
                         O blog masterjobs e Gama Academy ajudam centenas de profissionais transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Deseja se tornar um profissional do futuro? <b>Nós queremos ajudar você!</b>
@@ -274,10 +279,10 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="libs/jquery/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="libs/jquery/jquery.countdown.min.js"></script>
-    <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="{{ asset('libs/jquery/jquery-3.2.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('libs/jquery/jquery.countdown.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('libs/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/main.js') }}"></script>
     <script type='text/javascript'>
     (function(){ var widget_id = 'R7gYcCHW9L';var d=document;var w=window;function l(){
     var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>

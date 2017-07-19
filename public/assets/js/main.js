@@ -158,3 +158,4 @@ function getLocationIP($ipdaddress) {
         return response.city + ' - ' + response.region;
     }, "jsonp");
 }
+
