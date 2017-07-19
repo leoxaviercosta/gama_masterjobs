@@ -129,3 +129,7 @@ function getLocationIP($ipdaddress) {
         return response.city + ' - ' + response.region;
     }, "jsonp");
 }
+
+function setTitle(text) {
+    document.title = text;
+}

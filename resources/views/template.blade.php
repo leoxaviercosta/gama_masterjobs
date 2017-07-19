@@ -65,6 +65,7 @@
 <script src="{{ asset('assets/js/bootstrap-tagsinput.js') }}"></script>
 <script src="{{ asset('libs/tinymce/tinymce.min.js') }}"></script>
 <script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/js/clipboard.min.js') }}"></script>
 <script>tinymce.init({
     selector:'textarea',
     menubar: false,

@@ -24,6 +24,7 @@
                 <td>
                     <a href="{{ route('admin.posts.edit', ['id' => $post->id]) }}" class="btn btn-success">Editar</a>
                     <a href="{{ route('admin.posts.destroy', ['id' => $post->id]) }}" class="btn btn-danger">Excluir</a>
+                    <!--<button class="btn btn-info" data-clipboard-text="http://masterjobs.tech/blog/{{$post->id}}">Compartilhar</button>-->
                 </td>
             </tr>
         @endforeach

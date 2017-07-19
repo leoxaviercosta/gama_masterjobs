@@ -18,7 +18,8 @@ class PostsController extends Controller
     }
 
     public function postsFilter($id) {
-        $posts = \App\Post::find($id)->paginate(5);
-        return view('posts.index', compact('posts'));
+        $posts = \App\Post::where('id', $id)->first();
+        $posts = compact('posts');
+        return view('posts.index', ['posts' => $posts]);
     }
 }
