@@ -48,7 +48,7 @@
                 </div>
                 <div class="links hidden-xs hidden-sm">
                     <ul>
-                        <li><a id="blog" href="/blog">BLOG</a></li>
+                        <li><a id="blog" href="/quemsomos">QUEM SOMOS</a></li>
                         <li>
                             <a href="#">CATEGORIAS</a>
                             <ul>
@@ -210,10 +210,11 @@
         </center>
         <a href="#">Programação</a>
         <a href="#">Design</a>
-        <a href="#">Vendas</a>
+        <a href="#">Vendas / Negócios</a>
         <a href="#">Marketing</a>
         <a href="#">Startups</a>
         <a href="#">Artigos Especializados</a>
+        <a href="/quemsomos">Quem Somos</a>
     </div>
 
     <!-- MODAL INSCRIÇÃO -->
