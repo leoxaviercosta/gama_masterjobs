@@ -94,7 +94,11 @@
                 <div class="col-xs-12 mj-blog">
                     <div class="mj-blog-title">
                         <div class="mj-blog-title-description" onload="document.title='teste'">
+                            @if ($_SERVER['REQUEST_URI'] === '/blog')
                             <a href="blog/{{ $post->id }}">{{ $post->title }}</a>
+                            @else
+                                 {{ $post->title }}
+                            @endif
                             <script type="text/javascript">
                                document.title = '{{ $post->title }}';
                             </script>
