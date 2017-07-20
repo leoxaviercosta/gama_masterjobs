@@ -165,29 +165,6 @@ header .count-remaining .counter {
     text-shadow: 2px 2px 0px #2d6245;
 }
 
-@media screen and (min-width: 992px){
-    header .count-remaining .counter {
-        font-size: 70px;
-    }
-
-    header .menu .logo img {
-        width: 200px;
-        float: left;
-        margin-top: 7px;
-    }
-}
-
-/*TABLET*/
-@media screen and (min-width: 768px) and (max-width: 991px){
-    header {
-        height: 270px;
-    }
-    header .menu .logo img {
-        width: 200px;
-        margin: 7px auto 0 auto ;
-    }
-}
-
 .scrollhover {
     width: 100%;
     margin: 0 auto;
@@ -270,29 +247,6 @@ header .menu ul {
 header .menu ul li {
     display: inline;
     padding: 0 13px 0 13px;
-}
-
-@media screen and (max-width: 991px){
-    header .count-remaining .counter {
-        font-size: 40px;
-    }
-}
-
-/* MOBILE */
-@media screen and (max-width: 767px){
-    header .menu .logo img {
-        width: 200px;
-        margin: 7px auto 0 auto ;
-    }
-    footer .newsletter {
-        height: 424px;
-    }
-    .sub-footer .logo-master-gama {
-        padding-bottom: 20px;
-    }
-    header {
-        height: 420px;
-    }
 }
 
 header .count-remaining .remaining {
@@ -807,14 +761,6 @@ footer .copyright {
     width: 100%;
     float:left;
 }
-
-
-
-
-
-
-
-
 /*hacks*/
 .vcenter {
     display: inline-block;
@@ -826,4 +772,52 @@ footer .copyright {
     color: #7ac043; /*GAMA*/
     color: #1af2a0; /*SOBRE O HEADER*/
     color: #e91d64;
+}
+
+
+@media screen and (max-width: 991px){
+    header .count-remaining .counter {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    header .count-remaining .counter {
+        font-size: 70px;
+    }
+
+    header .menu .logo img {
+        width: 200px;
+        float: left;
+        margin-top: 7px;
+    }
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 767px){
+    header .menu .logo img {
+        width: 200px;
+        margin: 7px auto 0 auto ;
+    }
+    footer .newsletter {
+        height: 424px;
+    }
+    .sub-footer .logo-master-gama {
+        padding-bottom: 20px;
+    }
+    header {
+        height: 420px;
+    }
+}
+
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+    header {
+        height: 270px;
+    }
+    header .menu .logo img {
+        width: 200px;
+        margin: 7px auto 0 auto ;
+    }
 }
