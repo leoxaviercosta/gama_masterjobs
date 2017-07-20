@@ -774,8 +774,14 @@ footer .copyright {
     color: #e91d64;
 }
 
-
+/* MOBILE ATÉ TABLET */
 @media screen and (max-width: 991px){
+    .menu .btn-hamburger {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
     header .count-remaining .counter {
         font-size: 40px;
     }
@@ -795,12 +801,7 @@ footer .copyright {
 
 
 /* MOBILE */
-@media screen and (max-width: 767px){
-    .menu .btn-hamburger {
-        position: absolute;
-        left: 10px;
-        top: 10px;
-    }
+@media screen and (max-width: 767px){   
 
     header {
         height: 430px;
