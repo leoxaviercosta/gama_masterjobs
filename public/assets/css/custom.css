@@ -796,6 +796,15 @@ footer .copyright {
 
 /* MOBILE */
 @media screen and (max-width: 767px){
+
+    header {
+        height: 420px;
+    }
+
+    header .title {
+        padding-top: 30px;
+    }
+
     header .menu .logo img {
         width: 200px;
         margin: 7px auto 0 auto ;
@@ -806,9 +815,7 @@ footer .copyright {
     .sub-footer .logo-master-gama {
         padding-bottom: 20px;
     }
-    header {
-        height: 420px;
-    }
+    
 }
 
 /*TABLET*/
