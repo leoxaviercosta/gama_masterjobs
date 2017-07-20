@@ -5,7 +5,6 @@
         </div>
         <div class="links hidden-xs hidden-sm">
             <ul>
-                <!--<li><a id="inscrevase" href="#upgradecarreira" class="active">UPGRADE DE CARREIRA</a></li>-->
                 <li><a id="depoimentos" href="#depoimentos">DEPOIMENTOS</a></li>
                 <li><a href="/blog">BLOG</a></li>
                 <li><a href="/quemsomos">QUEM SOMOS</a></li>
