@@ -229,6 +229,9 @@ header {
     <!-- SIDENAV -->
     @include('includes.sidenav.sidenavindex')
 
+    <!-- MODAL INSCRIÇÃO -->
+    @include('includes.modalinscricao')
+
     <!-- MODAL MENSAGEM -->
     @include('includes.modalmessage')
 @endsection
