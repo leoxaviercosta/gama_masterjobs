@@ -1,61 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+@extends('template.main')
+<link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 
-<head>
-    <meta charset="UTF-8">
-    <title>MasterJobs - Gama Experience</title>
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,900">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mako">
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <meta name="google-site-verification" content="m9of50l_lHiTVoYlbhcBARSTbYi0PHXWFviE43eySXE" />
-
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-
-    <meta name="description" content="O blog masterjobs e Gama Academy ajudam centenas de profissionais transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Deseja se tornar um profissional do futuro? Nós queremos ajudar você!" />
-
-    <meta name="robots" content="index,follow" />
-
-    <!-- Favicon -->
-    <link rel="icon" href="assets/img/icon-green.ico">
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-102671259-2', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-</head>
-
+@section('content')
 <body>
     <header>
-        <div class="menu">
-            <div class="container">
-                <div class="logo">
-                    <a href="/" alt="MasterJobs"><img src="assets/img/logo-tech-white.png"></a>
-                </div>
-                <div class="links hidden-xs hidden-sm">
-                    <ul>
-                        <!--<li><a id="inscrevase" href="#upgradecarreira" class="active">UPGRADE DE CARREIRA</a></li>-->
-                        <li><a id="depoimentos" href="#depoimentos">DEPOIMENTOS</a></li>
-                        <li><a href="/blog">BLOG</a></li>
-                        <li><a href="/quemsomos">QUEM SOMOS</a></li>
-                        <li><a id="contato" href="/contato">CONTATO</a></li>
-                        <li style="padding-left: 36px;">
-                            <button class="btn btn-want-upgrade" onclick="$('#myModal').modal('show')">QUERO UM UPGRADE NA CARREIRA</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        @include('includes.menu.menuindex')
         <br/>
         <div class="logo-main">
             <img src="assets/img/logo-white.png">
@@ -272,149 +221,12 @@
         </div>
     </section>
 
-    <footer>
-        <div class="newsletter">
-            <div class="container">
-                <div class="title">
-                    AUMENTE SEU CONHECIMENTO 
-                </div>
-                <div class="sub-title">
-                    Cadastre-se para receber os melhores conteúdos sobre marketing, design, programação e vendas
-                </div>
-                <div class="form row">
-                    {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe']) !!}
-                        <!--<input type="text" name="name" id="name" placeholder="Informe seu nome">-->
-                        <div class="col-xs-12 col-sm-4">{!! Form::text('name', null, ['placeholder'=>'Informe seu nome', 'required' => 'required']) !!}</div>
-                        <!--<input type="email" name="email" id="email" placeholder="Informe seu email">-->
-                       <div class="col-xs-12 col-sm-4">{!! Form::email('email', null, ['placeholder'=>'Informe seu email', 'required' => 'required']) !!}</div>
-                        <!--<button type="submit" class="btn">ENVIAR</button>-->
-                        <div class="col-xs-12 col-sm-4">{!! Form::button('ENVIAR', ['class'=>'btn', 'type' => 'submit']) !!}</div>
-                    {!! Form::close() !!}
-                </div>
-            </div>
-        </div>
-        <div class="sub-footer">
-            <div class="row" style="margin-right: 0px;margin-left: 0px;">
-                <div class="col-xs-12 col-sm-8 col-lg-8 logo-master-gama">
-                    <div class="col-xs-6">
-                        <img src="assets/img/logo.png" class="logo">
-                    </div>
-                    <div class="col-xs-6" >
-                        <img src="assets/img/logo-gama.png" class="logo">
-                    </div>
-                    <div class="col-xs-12">
-                        O blog masterjobs e Gama Academy ajudam centenas de profissionais transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Deseja se tornar um profissional do futuro? <b>Nós queremos ajudar você!</b>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 col-lg-4 box-category">
-                    <div class="col-xs-6 box-category">
-                        <div class="title-category">
-                            Categorias do Blog
-                        </div>
-                        <ul>
-                            <li><a>Programação</a></li>
-                            <li><a>Design</a></li>
-                            <li><a>Marketing</a></li>
-                            <li><a>Vendas</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-6 box-materials">
-                        <div class="title-materials">
-                            Materiais do Gama
-                        </div>
-                        <ul>
-                            <li><a>Ebooks</a></li>
-                            <li><a>Artigos Especializados</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            © Gama Academy 2017 - Todos os direitos reservados
-        </div>
-    </footer>
+    <!-- SUB FOOTER -->
+    <footer> @include('includes.subfooter') </footer>
 
-    <!-- MODAL INSCRIÇÃO -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content" id="form-apply-inscription">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">PREENCHA OS CAMPOS ABAIXO E FAÇA SUA INSCRIÇÃO</h4>
-                </div>
-                <div class="modal-body row">
-                    {!! Form::open(['route'=>'register', 'method'=>'post', 'id' => 'subscribe-full']) !!}
-                        <div class="col-xs-12">
-                            <span>NOME COMPLETO</span><br/>
-                            <!--<input type="text" placeholder="Informe seu nome"><br/>-->
-                            {!! Form::text('name', null, ['placeholder'=>'Informe seu nome', 'required' => 'required']) !!} <br />
-                        </div>
-
-                        <div class="col-xs-12">
-                            <span>EMAIL</span><br/>
-                            <!--<input type="email" placeholder="Informe seu email"><br/>-->
-                            {!! Form::email('email', null, ['placeholder'=>'Informe seu email', 'required' => 'required']) !!} <br />
-                        </div>
-
-                        <div class="col-xs-12">
-                            <span>SUA ÁREA</span><br/>
-                            <select name="stack" required>
-                                <option value="">-- selecione --</option>
-                                <option value="PROGRAMAÇÃO">PROGRAMAÇÃO</option>
-                                <option value="DESIGN">DESIGN</option>
-                                <option value="VENDAS">VENDAS / NEGÓCIOS</option>
-                                <option value="MARKETING">MARKETING</option>
-                            </select><br/>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <!--<button class="btn-flat">FAZER INSCRIÇÃO</button>-->
-                        {!! Form::button('FAZER INSCRIÇÃO', ['class'=>'btn-flat', 'type' => 'submit']) !!}
-                    </div>
-                {!! Form::close() !!}
-            </div>
-        </div>
-    </div>
+    <!-- SIDENAV -->
+    @include('includes.sidenav.sidenavindex')
 
     <!-- MODAL MENSAGEM -->
-    <div class="modal fade" id="modalMessage" tabindex="-1" role="dialog" aria-labelledby="modalMessageLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content" id="modal-message">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="modalMessageLabel">MENSAGEM</h4>
-                </div>
-                <div class="modal-body" id="message-success">
-                </div>
-                <div class="modal-footer"></div>
-            </div>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="libs/jquery/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="libs/jquery/jquery.countdown.min.js"></script>
-    <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type='text/javascript'>
-    (function(){ var widget_id = 'R7gYcCHW9L';var d=document;var w=window;function l(){
-    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-    
-    <!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '603933249767807'); // Insert your pixel ID here.
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=603933249767807&ev=PageView&noscript=1"
-/></noscript>
-<!-- DO NOT MODIFY -->
-<!-- End Facebook Pixel Code -->
-</body>
-
-</html>
+    @include('includes.modalmessage')
+@endsection
