@@ -48,7 +48,7 @@
         }
     </style>
     <div class="container">
-        <p>Olá {{ $data['name'] }},</p>
+        <p>Olá {{ $name }},</p>
 
         <p>Parabéns! Seu cadastro foi realizado com sucesso!</p>
         

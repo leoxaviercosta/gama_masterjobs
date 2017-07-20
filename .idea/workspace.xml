@@ -2,208 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88749fa-1a17-45df-af45-cfad93772e74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/head.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/template/main.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/menu/menublog.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/menu/menuindex.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/modalinscricao.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/modalmessage.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/sidenav/sidenavblog.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/sidenav/sidenavindex.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/includes/subfooter.blade.php" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\bg-footer-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\bg-footer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\bg-stacks.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\header.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\header2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\hilight_left.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\hilight_mid.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\hilight_right.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\icon-green.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\images.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\logo-gama.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\logo-green.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\logo-name-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\logo-tech-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\logo-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\o-STARTUP-facebook.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\scrollhover.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\stack-hacker.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\stack-hacker2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\stack-hipster.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\stack-hipster2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\stack-hustler.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\stack-hustler2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\stack-hyper.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\stack-hyper2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\img\zig-zag.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\assets\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\css\bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\css\bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\bootstrap\js\npm.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\jquery\jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\jquery\jquery.countdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\jquery.tinymce.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\langs\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\advlist\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\anchor\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\autolink\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\autoresize\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\autosave\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\bbcode\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\charmap\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\code\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\codesample\css\prism.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\codesample\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\colorpicker\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\contextmenu\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\directionality\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-cool.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-cry.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-embarassed.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-foot-in-mouth.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-frown.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-innocent.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-kiss.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-laughing.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-money-mouth.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-sealed.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-surprised.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-tongue-out.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-undecided.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-wink.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\img\smiley-yell.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\emoticons\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\fullpage\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\fullscreen\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\help\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\help\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\hr\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\image\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\imagetools\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\importcss\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\insertdatetime\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\legacyoutput\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\link\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\lists\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\media\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\nonbreaking\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\noneditable\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\pagebreak\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\paste\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\preview\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\print\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\save\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\searchreplace\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\spellchecker\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\tabfocus\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\table\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\template\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\textcolor\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\textpattern\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\toc\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\visualblocks\css\visualblocks.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\visualblocks\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\visualchars\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\plugins\wordcount\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\content.inline.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\content.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\fonts\tinymce-small.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\fonts\tinymce-small.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\fonts\tinymce-small.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\fonts\tinymce-small.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\fonts\tinymce.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\fonts\tinymce.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\fonts\tinymce.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\fonts\tinymce.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\img\anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\img\loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\img\object.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\img\trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\skins\lightgray\skin.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\themes\inlite\theme.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\themes\modern\theme.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\libs\tinymce\tinymce.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\css\style-blog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\bg-footer-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\bg-footer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\bg-stacks.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\header.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\header2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\hilight_left.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\hilight_mid.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\hilight_right.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\icon-green.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\images.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\logo-gama.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\logo-green.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\logo-name-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\logo-tech-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\logo-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\o-STARTUP-facebook.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\scrollhover.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\stack-hacker.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\stack-hacker2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\stack-hipster.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\stack-hipster2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\stack-hustler.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\stack-hustler2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\stack-hyper.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\stack-hyper2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\img\zig-zag.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\assets\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\css\bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\css\bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\bootstrap\js\npm.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\jquery\jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\libs\jquery\jquery.countdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\quem-somos.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_blog\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_email\bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_email\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_email\logo-gama.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\workfolder\Projects_Samples\Gama Experience\masterjobs\template_email\logo-master-jobs.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/template/blog.blade.php" afterPath="$PROJECT_DIR$/resources/views/template/blog.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/template/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/template/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/emails/mail.blade.php" afterPath="$PROJECT_DIR$/resources/views/emails/mail.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="laravel-express.iws" />
@@ -229,61 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RegisterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1513">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.31282952" vertical-offset="927" max-vertical-offset="1547">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/template/blog.blade.php">
+      <file leaf-file-name="PageController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="221" max-vertical-offset="1802">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/template/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4029">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subfooter.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/includes/subfooter.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1088">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/template/main.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/includes/head.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6274165" vertical-offset="0" max-vertical-offset="612">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="646">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -330,10 +90,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/LeadsController.php" />
         <option value="$PROJECT_DIR$/app/Leads.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/leads/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
         <option value="$PROJECT_DIR$/public/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/resources/views/includes/menu/menublog.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/modalmessage.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/modalinscricao.php" />
         <option value="$PROJECT_DIR$/resources/views/template.blade.php" />
@@ -342,13 +100,16 @@
         <option value="$PROJECT_DIR$/resources/views/template/main.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/sidenav/sidenavblog.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/includes/head.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/menu/menuindex.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/sidenav/sidenavindex.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/includes/subfooter.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/template/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/template/blog.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/menu/menublog.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/head.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" />
+        <option value="$PROJECT_DIR$/resources/views/emails/mail.blade.php" />
       </list>
     </option>
   </component>
@@ -447,7 +208,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="emails" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -604,22 +365,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1513">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/template/blog.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/template/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4029">
@@ -707,20 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="617">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25888324" vertical-offset="0" max-vertical-offset="591">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/style-blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83112586" vertical-offset="9953" max-vertical-offset="10557">
@@ -774,6 +505,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37394246" vertical-offset="0" max-vertical-offset="591">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -812,27 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8622366" vertical-offset="1865" max-vertical-offset="2516">
-          <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/menu/menublog.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25888324" vertical-offset="0" max-vertical-offset="595">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/modalmessage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23011844" vertical-offset="0" max-vertical-offset="591">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/posts/_form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="617">
@@ -847,20 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9117647" vertical-offset="612" max-vertical-offset="1496">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/posts/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7986464" vertical-offset="123" max-vertical-offset="714">
@@ -872,21 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11505922" vertical-offset="0" max-vertical-offset="591">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1513">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,16 +600,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/template/mail.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/template/blog.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23529412" vertical-offset="663" max-vertical-offset="1445">
-          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.5469314" vertical-offset="785" max-vertical-offset="1802">
+          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/menu/menublog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6718213" vertical-offset="0" max-vertical-offset="595">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.92618626" vertical-offset="612" max-vertical-offset="1496">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14178">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32864675" vertical-offset="17" max-vertical-offset="629">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/template/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20446736" vertical-offset="0" max-vertical-offset="582">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/modalmessage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23367697" vertical-offset="0" max-vertical-offset="582">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/includes/subfooter.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1088">
+        <state vertical-scroll-proportion="-0.6731107" vertical-offset="519" max-vertical-offset="1088">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
@@ -935,32 +682,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/template/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4029">
+        <state vertical-scroll-proportion="0.71704745" vertical-offset="3366" max-vertical-offset="4114">
+          <caret line="222" column="18" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30427632" vertical-offset="1872" max-vertical-offset="2890">
+          <caret line="121" column="28" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/template/blog.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="221" max-vertical-offset="1802">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/template/main.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state vertical-scroll-proportion="-0.92783505" vertical-offset="540" max-vertical-offset="1122">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/head.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/mail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6274165" vertical-offset="0" max-vertical-offset="612">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.4920914" vertical-offset="570" max-vertical-offset="1445">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="646">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31282952" vertical-offset="927" max-vertical-offset="1547">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>

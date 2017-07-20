@@ -78,8 +78,10 @@ class RegisterController extends Controller
     public function getLocationIP($ipaddress) {
         $json = file_get_contents("https://ipinfo.io/{$ipaddress}/json");
         $details = json_decode($json, true);
-        if (is_array($details)) {
+        if (is_array($details) && isset($details['city'])) {
             return $details['city'] . ' - ' . $details['region'];
+        } else {
+            return 'Não Localizado';
         }
     }
 }
