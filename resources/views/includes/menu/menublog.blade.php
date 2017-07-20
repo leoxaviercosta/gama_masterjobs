@@ -4,7 +4,7 @@
             <a href="/blog"><img src="{{ asset('assets/img/logo-tech-white.png') }}"></a>
         </div>
         <div class="hidden-md hidden-lg">
-            <button type="button" onclick="openNav()" class="btn btn-default btn-sm">
+            <button type="button" onclick="openNav()" class="btn btn-default btn-sm btn-hamburger">
                 <span class="glyphicon glyphicon-menu-hamburger"></span>
             </button>
         </div>
