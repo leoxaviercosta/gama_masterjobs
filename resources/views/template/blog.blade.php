@@ -1,6 +1,4 @@
 @extends('template.main')
-<link href="{{ asset('assets/css/style-blog.css') }}" rel="stylesheet">
-
 @section('content')
 <body>
     <header>
@@ -86,7 +84,11 @@
             </div>
         </div>
     </div>
-
+<style>
+header {
+    height: 250px;
+}
+</style>
     <!-- SUB FOOTER -->
     <footer style="z-index: 20; position: absolute;"> @include('includes.subfooter') </footer>
 

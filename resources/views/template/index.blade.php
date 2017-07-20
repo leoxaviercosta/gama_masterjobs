@@ -1,6 +1,4 @@
 @extends('template.main')
-<link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-
 @section('content')
 <body>
     <header>
@@ -220,7 +218,11 @@
         <br/><br/><br/>
         </div>
     </section>
-
+<style>
+header {
+    height: 570px;
+}
+</style>
     <!-- SUB FOOTER -->
     <footer> @include('includes.subfooter') </footer>
 

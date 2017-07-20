@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mako">
-    <link href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" >
+    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}" >
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="description" content="O blog masterjobs e Gama Academy ajudam centenas de profissionais transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Deseja se tornar um profissional do futuro? Nós queremos ajudar você!"/>
