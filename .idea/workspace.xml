@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88749fa-1a17-45df-af45-cfad93772e74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Repositories/LeadsRepositories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Services/LeadsServices.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LeadsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LeadsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Repositories/LeadsRepositories.php" afterPath="$PROJECT_DIR$/app/Http/Repositories/LeadsRepositories.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/leads/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/leads/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/leads/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7010309" vertical-offset="0" max-vertical-offset="1445">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="816" max-vertical-offset="1445">
+              <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
               <folding>
                 <element signature="e#248#270#0#HTML" expanded="true" />
                 <element signature="e#387#409#0#HTML" expanded="true" />
@@ -70,16 +67,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeadsRepositories.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LeadsRepositories.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Repositories/LeadsRepositories.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.961538" vertical-offset="81" max-vertical-offset="663">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.50343645" vertical-offset="81" max-vertical-offset="663">
+              <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
               <folding>
-                <marker date="1500613765448" expanded="true" signature="142:504" placeholder="SELECT COUNT..COUNT..." />
-                <marker date="1500613765448" expanded="true" signature="260:477" placeholder="SELECT COUNT..." />
-                <marker date="1500613765448" expanded="true" signature="636:910" placeholder="SELECT COUNT..COUNT..." />
-                <marker date="1500613765448" expanded="true" signature="744:885" placeholder="SELECT COUNT..." />
+                <marker date="1500614212771" expanded="true" signature="142:511" placeholder="SELECT COUNT..COUNT..." />
+                <marker date="1500614212771" expanded="true" signature="267:484" placeholder="SELECT COUNT..." />
+                <marker date="1500614212771" expanded="true" signature="643:924" placeholder="SELECT COUNT..COUNT..." />
+                <marker date="1500614212771" expanded="true" signature="758:899" placeholder="SELECT COUNT..." />
               </folding>
             </state>
           </provider>
@@ -157,8 +154,8 @@
         <option value="$PROJECT_DIR$/app/Http/Services/LeadsServices.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LeadsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Repositories/LeadsRepositories.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/leads/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Repositories/LeadsRepositories.php" />
       </list>
     </option>
   </component>
@@ -837,6 +834,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/leads/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="816" max-vertical-offset="1445">
+          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+          <folding>
+            <element signature="e#248#270#0#HTML" expanded="true" />
+            <element signature="e#387#409#0#HTML" expanded="true" />
+            <element signature="e#543#565#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Services/LeadsServices.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
@@ -849,25 +858,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Repositories/LeadsRepositories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.961538" vertical-offset="81" max-vertical-offset="663">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.50343645" vertical-offset="81" max-vertical-offset="663">
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
           <folding>
-            <marker date="1500613765448" expanded="true" signature="142:504" placeholder="SELECT COUNT..COUNT..." />
-            <marker date="1500613765448" expanded="true" signature="260:477" placeholder="SELECT COUNT..." />
-            <marker date="1500613765448" expanded="true" signature="636:910" placeholder="SELECT COUNT..COUNT..." />
-            <marker date="1500613765448" expanded="true" signature="744:885" placeholder="SELECT COUNT..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/leads/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7010309" vertical-offset="0" max-vertical-offset="1445">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="e#248#270#0#HTML" expanded="true" />
-            <element signature="e#387#409#0#HTML" expanded="true" />
-            <element signature="e#543#565#0#HTML" expanded="true" />
+            <marker date="1500614212771" expanded="true" signature="142:511" placeholder="SELECT COUNT..COUNT..." />
+            <marker date="1500614212771" expanded="true" signature="267:484" placeholder="SELECT COUNT..." />
+            <marker date="1500614212771" expanded="true" signature="643:924" placeholder="SELECT COUNT..COUNT..." />
+            <marker date="1500614212771" expanded="true" signature="758:899" placeholder="SELECT COUNT..." />
           </folding>
         </state>
       </provider>

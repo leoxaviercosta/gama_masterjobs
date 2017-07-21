@@ -53,7 +53,7 @@
 
                 @foreach($leads['localizacao'] as $localizacao)
                     <tr>
-                        <td>{{ $localizacao->LOCATION }}</td>
+                        <td>{!! $localizacao->LOCATION !!}</td>
                         <td>{{ $localizacao->COUNT }}</td>
                     </tr>
                 @endforeach
@@ -69,7 +69,7 @@
 
               @foreach($leads['stacks'] as $stack)
                   <tr>
-                      <td>{{ $stack->STACK }}</td>
+                      <td>{!! $stack->STACK !!}</td>
                       <td>{{ $stack->COUNT }}</td>
                   </tr>
               @endforeach

@@ -7,7 +7,7 @@ use DB;
 class LeadsRepositories
 {
     public function getEstatisticaLocalizacao() {
-        $sql = "SELECT COUNT, IF (LOCATION = '', 'Não Localizado', LOCATION) AS LOCATION
+        $sql = "SELECT COUNT, IF (LOCATION = '', '<b>Não Localizado</b>', LOCATION) AS LOCATION
                   FROM (
                     SELECT COUNT(1) AS COUNT, SUBSTRING_INDEX(IP_LOCATION, '-', -1) AS LOCATION
                       FROM LEADS
@@ -20,7 +20,7 @@ class LeadsRepositories
     }
 
     public function getEstatisticaStacks() {
-        $sql = "SELECT COUNT, IF (STACK = '', 'NÃO INFORMADO', STACK) AS STACK
+        $sql = "SELECT COUNT, IF (STACK = '', '<b>NÃO INFORMADO</b>', STACK) AS STACK
                   FROM (
                     SELECT COUNT(1) AS COUNT, STACK
                       FROM LEADS
