@@ -1,8 +1,16 @@
 @extends('template')
 
 @section('content')
-
-    <h1>Leads ({{ $leads['leads']->total() }} de 1000 convertidos)</h1>
+    
+    <div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="{{round($leads['leads']->total()*100/1000,0)}}" aria-valuemin="0" aria-valuemax="100" style="width: {{round($leads['leads']->total()*100/1000,0)}}%">
+                <span class="sr-only">{{ round($leads['leads']->total()*100/1000,0) }} alcançado | {{ $leads['leads']->total() }} / 1000</span>
+            </div>
+        </div>
+    </div>
+    
+    <!--<h1>Leads ({{ $leads['leads']->total() }} de 1000 convertidos)</h1>-->
 
     <ul class="nav nav-tabs">
       <li class="nav-item active">
