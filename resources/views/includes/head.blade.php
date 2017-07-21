@@ -12,10 +12,8 @@
     <link rel="stylesheet" href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" >
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}" >
 
-    @if ($_SERVER['REQUEST_URI'] === '/')
     <meta property="og:site_name" content="MasterJobs" />
     <meta property="og:url" content="http://www.masterjobs.tech" />
-    @endif
     <meta property="og:image" content="http://www.masterjobs.tech/assets/img/called.png" />
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
