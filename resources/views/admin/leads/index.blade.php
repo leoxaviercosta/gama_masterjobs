@@ -3,9 +3,10 @@
 @section('content')
     
     <div>
+        <center><h4>{{ $leads['leads']->total() }} de 1000</h4></center><br/>
         <div class="progress">
-            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="{{round($leads['leads']->total()*100/1000,0)}}" aria-valuemin="0" aria-valuemax="100" style="width: {{round($leads['leads']->total()*100/1000,0)}}%">
-                {{ round($leads['leads']->total()*100/1000,0) }}% alcançado | {{ $leads['leads']->total() }} / 1000
+            <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="{{round($leads['leads']->total()*100/1000,0)}}" aria-valuemin="0" aria-valuemax="100" style="width: {{round($leads['leads']->total()*100/1000,0)}}%;color: #244024">
+                {{ round($leads['leads']->total()*100/1000,0) }}% alcançado | 
             </div>
         </div>
     </div>
