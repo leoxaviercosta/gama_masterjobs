@@ -2,10 +2,8 @@
 
 @section('content')
     
-    <div style="border: 1px solid #dddddd;border-radius: 10px;margin-bottom: 10px;padding: 10px">
-        <div class="page-header" style="text-align: center;">
+    <div style="margin-bottom: 10px;padding: 10px">
             <h3>Leads gerados: <small>{{ $leads['leads']->total() }} de 1000</small></h3>
-        </div>
         <div class="progress">
             <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="{{round($leads['leads']->total()*100/1000,0)}}" aria-valuemin="0" aria-valuemax="100" style="width: {{round($leads['leads']->total()*100/1000,0)}}%;color: #284a28;font-weight: bold;">
                 {{ round($leads['leads']->total()*100/1000,0) }}% alcançado
