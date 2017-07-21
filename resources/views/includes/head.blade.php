@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="{{ asset('libs/bootstrap/css/bootstrap.min.css') }}" >
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}" >
 
+    @if ($_SERVER['REQUEST_URI'] === '/blog')
+    <meta property="og:site_name" content="MasterJobs" />
+    <meta property="og:url" content="http://www.masterjobs.tech" />
+    @endif
+    <meta property="og:image" content="http://www.mobilicats.com.br/assets/img/called.png" />
+
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="description" content="O blog masterjobs e Gama Academy ajudam centenas de profissionais transformarem seus talentos em oportunidades reais de trabalho em startups de todo o Brasil. Deseja se tornar um profissional do futuro? Nós queremos ajudar você!"/>
     <meta name="robots" content="index,follow" />
