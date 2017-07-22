@@ -16,7 +16,7 @@
          <div class="sub-title" style="margin-top: 10px;">
             EM PARCERIA COM <img src="assets/img/logo-gama.png" class="logo" style="height: 50px;">
          </div>
-        <div class="count-remaining">
+        <!--<div class="count-remaining">
             <div class="counter">
                 <span id="time-remaining"></span>
             </div>
@@ -26,7 +26,8 @@
                 <div class="remaining-right"><img src="assets/img/hilight_right.png"></div>
             </div>
             <br/>
-        </div>
+        </div>-->
+        <br />
         <button class="btn" id="subscribe-open" onclick="$('#myModal').modal('show')">PRÉ-INSCRIÇÕES ABERTAS</button>
         <br/><br/>
     </header>
@@ -220,7 +221,7 @@
     </section>
 <style>
 header {
-    height: 570px;
+    height: 450px;
 }
 </style>
     <!-- SUB FOOTER -->
